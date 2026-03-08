@@ -1,0 +1,641 @@
+//
+//  GeometricOpticsQuestions.swift
+//  optiquizz
+//
+//  Questions pour le quiz "Optique géométrique"
+//  UNIQUEMENT issues des sujets BTS Opticien Lunetier 2021-2025
+//
+
+import Foundation
+
+struct GeometricOpticsQuizData {
+    static var questions: [Question] {
+        var all: [Question] = []
+        all.append(contentsOf: questionsBTS2025)
+        all.append(contentsOf: questionsBTS2024)
+        all.append(contentsOf: questionsBTS2023)
+        all.append(contentsOf: questionsBTS2022)
+        all.append(contentsOf: questionsBTS2021)
+        return all
+    }
+    
+    // MARK: - Questions BTS 2025 (Optique Géométrique et Physique)
+    private static let questionsBTS2025: [Question] = [
+        Question(
+            id: UUID(),
+            text: "Quelle est la formule de conjugaison des lentilles minces ?",
+            answers: [
+                "1/f' = 1/OA' - 1/OA (relation de conjugaison)",
+                "f' = OA' + OA",
+                "1/f' = OA × OA'",
+                "f' = OA'/OA"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Quelle est la formule du grandissement transversal d'une lentille mince ?",
+            answers: [
+                "γ = A'B'/AB = OA'/OA",
+                "γ = AB/A'B' = OA/OA'",
+                "γ = f'/OA",
+                "γ = OA/f'"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Quels sont les trois rayons remarquables pour construire l'image d'un objet par une lentille convergente ?",
+            answers: [
+                "Rayon parallèle à l'axe → passe par F', rayon passant par O → non dévié, rayon passant par F → ressort parallèle",
+                "Rayon perpendiculaire, rayon oblique, rayon horizontal",
+                "Rayon incident, rayon réfléchi, rayon réfracté",
+                "Rayon rouge, rayon vert, rayon bleu"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que la distance focale image f' d'une lentille convergente ?",
+            answers: [
+                "Distance entre le centre optique O et le foyer image F'",
+                "Distance entre l'objet et la lentille",
+                "Distance entre l'image et la lentille",
+                "Épaisseur de la lentille"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Quelle est la relation entre la vergence V et la distance focale f' ?",
+            answers: [
+                "V = 1/f' (en dioptries si f' en mètres)",
+                "V = f'",
+                "V = f'²",
+                "V = 1/f'²"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce qu'une image réelle ?",
+            answers: [
+                "Image formée par la convergence réelle des rayons lumineux, peut être captée sur un écran",
+                "Image formée par le prolongement des rayons",
+                "Image virtuelle",
+                "Image inversée"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce qu'une image virtuelle ?",
+            answers: [
+                "Image formée par le prolongement des rayons lumineux, ne peut pas être captée sur un écran",
+                "Image formée par la convergence réelle des rayons",
+                "Image réelle",
+                "Image droite"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Que devient un rayon parallèle à l'axe optique après une lentille convergente ?",
+            answers: [
+                "Il passe par le foyer image F'",
+                "Il reste parallèle",
+                "Il passe par le centre optique",
+                "Il diverge"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Que devient un rayon passant par le centre optique O d'une lentille ?",
+            answers: [
+                "Il n'est pas dévié (rayon non dévié)",
+                "Il passe par le foyer",
+                "Il devient parallèle",
+                "Il est réfléchi"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Que devient un rayon passant par le foyer objet F d'une lentille convergente ?",
+            answers: [
+                "Il ressort parallèle à l'axe optique",
+                "Il passe par le foyer image",
+                "Il n'est pas dévié",
+                "Il diverge"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Quelle est la loi de Snell-Descartes pour la réfraction ?",
+            answers: [
+                "n₁ × sin(i₁) = n₂ × sin(i₂)",
+                "n₁ × sin(i₁) = n₂ × cos(i₂)",
+                "sin(i₁) = sin(i₂)",
+                "n₁ = n₂ × sin(i₂)"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .difficile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que l'indice de réfraction d'un milieu ?",
+            answers: [
+                "n = c/v où c est la vitesse de la lumière dans le vide et v dans le milieu",
+                "n = v/c",
+                "n = c × v",
+                "n = c²/v"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        )
+    ]
+    
+    // MARK: - Questions BTS 2024
+    private static let questionsBTS2024: [Question] = [
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que l'angle limite de réfraction ?",
+            answers: [
+                "Angle d'incidence pour lequel l'angle de réfraction vaut 90°",
+                "Angle de réflexion totale",
+                "Angle d'incidence maximum",
+                "Angle de réfraction minimum"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .difficile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que la réflexion totale interne ?",
+            answers: [
+                "Phénomène où toute la lumière est réfléchie sans réfraction lorsque l'angle d'incidence dépasse l'angle limite",
+                "Réflexion partielle",
+                "Réfraction totale",
+                "Absorption totale"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .difficile
+        ),
+        Question(
+            id: UUID(),
+            text: "Quelle est la relation entre les distances focales objet f et image f' pour une lentille mince dans l'air ?",
+            answers: [
+                "f' = -f",
+                "f' = f",
+                "f' = 2f",
+                "f' = f/2"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .difficile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que le grandissement algébrique ?",
+            answers: [
+                "γ = OA'/OA (rapport des distances algébriques)",
+                "γ = OA/OA'",
+                "γ = f'/OA",
+                "γ = OA/f'"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce qu'un système optique centré ?",
+            answers: [
+                "Système dont tous les éléments sont alignés sur un axe optique commun",
+                "Système avec un seul élément",
+                "Système sans axe optique",
+                "Système décentré"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que la vergence d'un système optique ?",
+            answers: [
+                "Inverse de la distance focale image (en dioptries)",
+                "Distance focale (en mètres)",
+                "Grandissement",
+                "Puissance optique"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que le plan focal objet ?",
+            answers: [
+                "Plan perpendiculaire à l'axe optique passant par le foyer objet F",
+                "Plan parallèle à l'axe optique",
+                "Plan passant par le centre optique",
+                "Plan focal image"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .difficile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que le plan focal image ?",
+            answers: [
+                "Plan perpendiculaire à l'axe optique passant par le foyer image F'",
+                "Plan parallèle à l'axe optique",
+                "Plan passant par le centre optique",
+                "Plan focal objet"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .difficile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce qu'une lentille convergente ?",
+            answers: [
+                "Lentille qui fait converger les rayons parallèles à l'axe en un point (foyer image)",
+                "Lentille qui fait diverger les rayons parallèles",
+                "Lentille qui ne dévie pas les rayons",
+                "Lentille qui absorbe la lumière"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce qu'une lentille divergente ?",
+            answers: [
+                "Lentille qui fait diverger les rayons parallèles à l'axe",
+                "Lentille qui fait converger les rayons parallèles",
+                "Lentille qui ne dévie pas les rayons",
+                "Lentille qui réfléchit la lumière"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        )
+    ]
+    
+    // MARK: - Questions BTS 2023
+    private static let questionsBTS2023: [Question] = [
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que l'aberration chromatique ?",
+            answers: [
+                "Dispersion de la lumière en différentes couleurs due à la variation de l'indice de réfraction avec la longueur d'onde",
+                "Déformation de l'image",
+                "Perte de netteté",
+                "Réflexion parasite"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que l'aberration sphérique ?",
+            answers: [
+                "Défaut dû à la forme sphérique des surfaces optiques, les rayons marginaux ne convergent pas au même point que les rayons centraux",
+                "Défaut de couleur",
+                "Perte de lumière",
+                "Distorsion de l'image"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce qu'un rayon lumineux ?",
+            answers: [
+                "Une ligne droite représentant la direction de propagation de la lumière",
+                "Un faisceau de lumière visible",
+                "Une onde électromagnétique",
+                "Une particule de lumière"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que la réflexion ?",
+            answers: [
+                "Changement de direction de la lumière lorsqu'elle rencontre une surface",
+                "Passage de la lumière à travers un matériau",
+                "Absorption de la lumière",
+                "Dispersion de la lumière"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que la réfraction ?",
+            answers: [
+                "Déviation de la lumière lors du passage d'un milieu à un autre de densité optique différente",
+                "Réflexion de la lumière",
+                "Absorption de la lumière",
+                "Diffusion de la lumière"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Quelle est la loi de la réflexion ?",
+            answers: [
+                "Angle d'incidence = Angle de réflexion (i = r)",
+                "Angle d'incidence = 2 × Angle de réflexion",
+                "Angle d'incidence = Angle de réfraction",
+                "Angle d'incidence = 90° - Angle de réflexion"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que le grandissement ?",
+            answers: [
+                "Rapport entre la taille de l'image et la taille de l'objet",
+                "Rapport entre la distance image et la distance objet",
+                "Rapport entre la distance focale et la distance objet",
+                "Angle de vision"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que le foyer d'une lentille convergente ?",
+            answers: [
+                "Point où convergent les rayons parallèles à l'axe optique",
+                "Point où divergent les rayons",
+                "Centre de la lentille",
+                "Point d'intersection des rayons incidents"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Comment se calcule la vergence d'une lentille convergente de distance focale 0,25 m ?",
+            answers: [
+                "V = 1/0,25 = 4 δ",
+                "V = 0,25 δ",
+                "V = 0,25² = 0,0625 δ",
+                "V = 1/0,25² = 16 δ"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Quelle est la distance focale d'une lentille de vergence +5,00 δ ?",
+            answers: [
+                "f' = 1/5 = 0,20 m = 20 cm",
+                "f' = 5 m",
+                "f' = 5 cm",
+                "f' = 0,05 m"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        )
+    ]
+    
+    // MARK: - Questions BTS 2022
+    private static let questionsBTS2022: [Question] = [
+        Question(
+            id: UUID(),
+            text: "Pour une lentille convergente, où se forme l'image d'un objet situé à l'infini ?",
+            answers: [
+                "Au foyer image F'",
+                "Au centre optique O",
+                "Au foyer objet F",
+                "À l'infini"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Pour une lentille convergente, où doit être placé un objet pour obtenir une image à l'infini ?",
+            answers: [
+                "Au foyer objet F",
+                "Au centre optique O",
+                "Au foyer image F'",
+                "À l'infini"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Quelle est la nature de l'image d'un objet réel placé entre le foyer objet F et le centre optique O d'une lentille convergente ?",
+            answers: [
+                "Image virtuelle, droite, agrandie",
+                "Image réelle, inversée, agrandie",
+                "Image réelle, droite, réduite",
+                "Image virtuelle, inversée, réduite"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .difficile
+        ),
+        Question(
+            id: UUID(),
+            text: "Quelle est la nature de l'image d'un objet réel placé au-delà du foyer objet F d'une lentille convergente ?",
+            answers: [
+                "Image réelle, inversée",
+                "Image virtuelle, droite",
+                "Image réelle, droite",
+                "Image virtuelle, inversée"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .difficile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que la puissance d'une lentille ?",
+            answers: [
+                "P = 1/f' (en dioptries si f' en mètres)",
+                "P = f' (en dioptries)",
+                "P = f'² (en dioptries)",
+                "P = 1/f'² (en dioptries)"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Comment se calcule la vergence d'un système de deux lentilles minces accolées ?",
+            answers: [
+                "V = V₁ + V₂ (somme des vergences)",
+                "V = V₁ × V₂",
+                "V = V₁/V₂",
+                "V = (V₁ + V₂)/2"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .difficile
+        ),
+        Question(
+            id: UUID(),
+            text: "Quelle est l'unité de la vergence ?",
+            answers: [
+                "La dioptrie (δ)",
+                "Le mètre (m)",
+                "Le centimètre (cm)",
+                "Le watt (W)"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce qu'une lentille mince ?",
+            answers: [
+                "Lentille dont l'épaisseur est négligeable devant les rayons de courbure",
+                "Lentille très petite",
+                "Lentille légère",
+                "Lentille transparente"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        )
+    ]
+    
+    // MARK: - Questions BTS 2021
+    private static let questionsBTS2021: [Question] = [
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que l'axe optique d'un système optique centré ?",
+            answers: [
+                "Droite passant par les centres de courbure des surfaces optiques",
+                "Droite perpendiculaire aux surfaces",
+                "Droite parallèle aux rayons",
+                "Droite quelconque"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que le centre optique O d'une lentille mince ?",
+            answers: [
+                "Point de l'axe optique où les rayons ne sont pas déviés",
+                "Point focal",
+                "Centre géométrique",
+                "Point d'intersection des surfaces"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que le foyer objet F d'une lentille convergente ?",
+            answers: [
+                "Point de l'axe optique tel qu'un objet placé en F donne une image à l'infini",
+                "Point focal image",
+                "Centre optique",
+                "Point à l'infini"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce que le foyer image F' d'une lentille convergente ?",
+            answers: [
+                "Point de l'axe optique où convergent les rayons parallèles à l'axe",
+                "Point focal objet",
+                "Centre optique",
+                "Point à l'infini"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .moyen
+        ),
+        Question(
+            id: UUID(),
+            text: "Quelle est la relation entre la distance focale et le rayon de courbure pour une lentille mince ?",
+            answers: [
+                "Pour une lentille mince, f' dépend des rayons de courbure et de l'indice",
+                "f' = R",
+                "f' = R/2",
+                "f' = 2R"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .difficile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce qu'une image droite ?",
+            answers: [
+                "Image dans le même sens que l'objet (grandissement positif)",
+                "Image inversée",
+                "Image perpendiculaire",
+                "Image horizontale"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce qu'une image inversée ?",
+            answers: [
+                "Image dans le sens inverse de l'objet (grandissement négatif)",
+                "Image droite",
+                "Image perpendiculaire",
+                "Image horizontale"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce qu'une image agrandie ?",
+            answers: [
+                "Image plus grande que l'objet (|γ| > 1)",
+                "Image plus petite que l'objet",
+                "Image de même taille",
+                "Image à l'infini"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Qu'est-ce qu'une image réduite ?",
+            answers: [
+                "Image plus petite que l'objet (|γ| < 1)",
+                "Image plus grande que l'objet",
+                "Image de même taille",
+                "Image à l'infini"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .facile
+        ),
+        Question(
+            id: UUID(),
+            text: "Quelle est la condition pour qu'une image soit réelle avec une lentille convergente ?",
+            answers: [
+                "L'objet doit être placé au-delà du foyer objet F",
+                "L'objet doit être placé entre F et O",
+                "L'objet doit être à l'infini",
+                "L'objet doit être au foyer"
+            ],
+            correctAnswerIndex: 0,
+            difficulty: .difficile
+        )
+    ]
+}
