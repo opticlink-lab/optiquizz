@@ -1,13 +1,1273 @@
 {
   "title": "Analyse de la vision",
   "questions": [
-    {"text": "Quelle est la valeur minimale attendue pour le FBUT (test lacrymal qualitatif invasif) ?", "answers": ["Au moins 10 secondes", "Au moins 5 secondes", "Au moins 15 secondes", "Au moins 20 secondes"], "correctAnswerIndex": 0, "difficulty": "facile"},
-    {"text": "Quelle est la norme de la hauteur de la rivière lacrymale (test quantitatif non invasif) ?", "answers": ["Entre 0,20 mm et 0,40 mm", "Entre 0,10 mm et 0,20 mm", "Entre 0,40 mm et 0,60 mm", "Entre 0,50 mm et 0,70 mm"], "correctAnswerIndex": 0, "difficulty": "facile", "explanation": "La rivière lacrymale (ménisque) est évaluée en lampe à fente ; une hauteur trop faible peut indiquer un syndrome sec."},
-    {"text": "Nommez les couches formant le film lacrymal de l'extérieur vers la cornée ainsi que les glandes responsables de leur sécrétion respective.", "answers": ["Couche lipidique (glandes de Meibomius), couche aqueuse (glandes lacrymales principales et de Krause), couche mucinique", "Couche aqueuse, couche lipidique, couche mucinique", "Couche mucinique, couche aqueuse, couche lipidique", "Couche lipidique, couche mucinique, couche aqueuse"], "correctAnswerIndex": 0, "difficulty": "moyen"},
-    {"text": "Décrivez la pinguécula en précisant sa localisation.", "answers": ["Tumeur dégénérative bénigne d'aspect jaunâtre, localisée sur la conjonctive para-limbique, généralement du côté temporal", "Inflammation de la cornée", "Opacité du cristallin", "Décollement de rétine"], "correctAnswerIndex": 0, "difficulty": "facile"},
-    {"text": "Quel type de lentilles et de renouvellement sont les plus judicieux pour une personne pratiquant un sport de contact deux fois par semaine ?", "answers": ["Lentilles souples toriques jetables journalières", "Lentilles rigides perméables à l'oxygène", "Lentilles souples mensuelles", "Lentilles souples annuelles"], "correctAnswerIndex": 0, "difficulty": "moyen"},
-    {"text": "Quel élément peut provoquer de l'inconfort en lentilles chez une personne travaillant 7 heures par jour sur ordinateur ?", "answers": ["Clignements incomplets et moins fréquents", "Luminosité trop forte", "Distance de travail trop proche", "Écran trop grand"], "correctAnswerIndex": 0, "difficulty": "moyen"},
-    {"text": "Qu'est-ce que le remotum apparent en vision de loin (R_L) pour un œil parfaitement compensé ?", "answers": ["Le point de vision nette le plus éloigné", "Le point de vision nette le plus proche", "Le foyer image", "Le punctum proximum"], "correctAnswerIndex": 0, "difficulty": "moyen"},
-    {"text": "Quelle est la conséquence principale de la cataracte sur la vision ?", "answers": ["Baisse de l'acuité visuelle, perturbation de la vision des couleurs et des contrastes", "Perte totale de vision", "Vision double", "Rétrécissement du champ visuel"], "correctAnswerIndex": 0, "difficulty": "facile"}
+    {
+      "text": "Quelle est la valeur minimale attendue pour le FBUT (test lacrymal qualitatif invasif) ?",
+      "answers": [
+        "Au moins 10 secondes",
+        "Au moins 5 secondes",
+        "Au moins 15 secondes",
+        "Au moins 20 secondes"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quelle est la norme de la hauteur de la rivière lacrymale (test quantitatif non invasif) ?",
+      "answers": [
+        "Entre 0,20 mm et 0,40 mm",
+        "Entre 0,10 mm et 0,20 mm",
+        "Entre 0,40 mm et 0,60 mm",
+        "Entre 0,50 mm et 0,70 mm"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Nommez les couches formant le film lacrymal de l'extérieur vers la cornée ainsi que les glandes responsables de leur sécrétion respective.",
+      "answers": [
+        "Couche lipidique (glandes de Meibomius), couche aqueuse (glandes lacrymales principales et de Krause), couche mucinique",
+        "Couche aqueuse, couche lipidique, couche mucinique",
+        "Couche mucinique, couche aqueuse, couche lipidique",
+        "Couche lipidique, couche mucinique, couche aqueuse"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Décrivez la pinguécula en précisant sa localisation.",
+      "answers": [
+        "Tumeur dégénérative bénigne d'aspect jaunâtre, localisée sur la conjonctive para-limbique, généralement du côté temporal",
+        "Inflammation de la cornée",
+        "Opacité du cristallin",
+        "Décollement de rétine"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quel type de lentilles et de renouvellement sont les plus judicieux pour une personne pratiquant un sport de contact deux fois par semaine ?",
+      "answers": [
+        "Lentilles souples toriques jetables journalières",
+        "Lentilles rigides perméables à l'oxygène",
+        "Lentilles souples mensuelles",
+        "Lentilles souples annuelles"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quel élément peut provoquer de l'inconfort en lentilles chez une personne travaillant 7 heures par jour sur ordinateur ?",
+      "answers": [
+        "Clignements incomplets et moins fréquents",
+        "Luminosité trop forte",
+        "Distance de travail trop proche",
+        "Écran trop grand"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "À partir d'une prescription en lunettes de -3,00 (-0,75) 0° pour l'œil droit et -3,00 (-2,00) 10° pour l'œil gauche, quelle serait la compensation en lentilles de contact ?",
+      "answers": [
+        "OD : -3,00 (-0,75) 0° et OG : -3,00 (-1,75) 10°",
+        "OD : -3,25 (-0,75) 0° et OG : -3,25",
+        "OD : -2,75 (-0,75) 0° et OG : -2,75",
+        "Identique aux lunettes pour les deux yeux"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Un astigmatisme total de 1,75 δ avec un cylindre négatif compensateur orienté à l'horizontale (0° ± 30°) est-il physiologique ?",
+      "answers": [
+        "Non, l'astigmatisme total physiologique est généralement nul, car l'astigmatisme cornéen et l'astigmatisme interne se compensent",
+        "Oui, car il est direct",
+        "Oui, car il est inférieur à 2,00 δ",
+        "Non, car il devrait être inverse"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Comment estimer la valeur de l'astigmatisme cornéen à partir d'une toricité cornéenne de 0,30 mm ?",
+      "answers": [
+        "Une toricité de 0,10 mm induit 0,6 δ d'astigmatisme",
+        "Une toricité de 0,10 mm induit 0,3 δ d'astigmatisme",
+        "Une toricité de 0,20 mm induit 0,6 δ d'astigmatisme",
+        "Une toricité de 0,10 mm induit 1,0 δ d'astigmatisme"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "La règle est qu'une toricité de 0,10 mm induit 0,6 δ d'astigmatisme. Donc 0,30 mm = 3 × 0,10 mm = 3 × 0,6 δ = 1,80 δ."
+    },
+    {
+      "text": "Si le rayon de courbure le plus plat est orienté à 10° (0° ± 30°), quelle est la nature de l'astigmatisme cornéen ?",
+      "answers": [
+        "Astigmatisme direct",
+        "Astigmatisme inverse",
+        "Astigmatisme oblique",
+        "Astigmatisme physiologique"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelle est la formule de l'addition confortable ?",
+      "answers": [
+        "Add conf = -1/LT - AL conf",
+        "Add conf = -1/LT + AL conf",
+        "Add conf = 1/LT - AL conf",
+        "Add conf = 1/LT + AL conf"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelle est la relation entre l'astigmatisme total, cornéen et interne ?",
+      "answers": [
+        "L'astigmatisme total physiologique doit être nul car cornéen et interne se compensent",
+        "L'astigmatisme total = astigmatisme cornéen + astigmatisme interne",
+        "L'astigmatisme total = astigmatisme cornéen - astigmatisme interne",
+        "L'astigmatisme total est toujours égal à l'astigmatisme cornéen"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Qu'est-ce que le CCF (Cylindre Croisé Fixe) ?",
+      "answers": [
+        "Cylindre Croisé Fixe de formule +0,50",
+        "Correction de Convergence Fixe",
+        "Contrôle de Champ Fixe",
+        "Compensation de Champ Fixe"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce que le remotum apparent en vision de loin (R_L) pour un œil parfaitement compensé ?",
+      "answers": [
+        "Point à l'infini",
+        "Point à 25 cm",
+        "Point à 40 cm",
+        "Point à 1 mètre"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Comment calcule-t-on la position du proximum apparent en vision de loin (P_L) ?",
+      "answers": [
+        "LP_L = -1 / Amax",
+        "LP_L = 1 / Amax",
+        "LP_L = Amax",
+        "LP_L = -Amax"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Comment calcule-t-on la position du remotum apparent en vision de près (R_P) ?",
+      "answers": [
+        "LR_P = -1 / Add conf",
+        "LR_P = 1 / Add conf",
+        "LR_P = Add conf",
+        "LR_P = -Add conf"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Qu'est-ce qu'un trou de vision ?",
+      "answers": [
+        "Zone sans recouvrement entre le parcours de vision de loin et de près",
+        "Perte de vision centrale",
+        "Scotome dans le champ visuel",
+        "Zone aveugle"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quand un double-foyer est-il envisageable ?",
+      "answers": [
+        "Quand il n'y a pas de trou de vision",
+        "Toujours",
+        "Jamais",
+        "Seulement pour la presbytie"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce que la Croix de Jackson ?",
+      "answers": [
+        "Test optique pour déterminer l'addition en vision de près",
+        "Test de vision des couleurs",
+        "Test de champ visuel",
+        "Test d'acuité visuelle"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Que signifie voir les horizontales plus nettes que les verticales à la Croix de Jackson ?",
+      "answers": [
+        "L'image optique est en arrière de la rétine, il faut augmenter l'addition",
+        "L'image optique est en avant de la rétine, il faut diminuer l'addition",
+        "L'addition est correcte",
+        "Il y a un astigmatisme"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelle est la conséquence du syndrome 3H-9H sur le film lacrymal en lentilles ?",
+      "answers": [
+        "Mouillabilité altérée de la lentille",
+        "Sécheresse oculaire totale",
+        "Inflammation de la cornée",
+        "Perte de la lentille"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelle glande sécrète la couche lipidique du film lacrymal ?",
+      "answers": [
+        "Glandes de Meibomius",
+        "Glandes lacrymales principales",
+        "Cellules caliciformes",
+        "Glandes de Krause"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quelles glandes sécrètent la couche aqueuse du film lacrymal ?",
+      "answers": [
+        "Glandes lacrymales principales et glandes de Krause",
+        "Glandes de Meibomius",
+        "Cellules caliciformes",
+        "Glandes sébacées"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Qu'est-ce qu'un œil aphake ?",
+      "answers": [
+        "Œil sans cristallin",
+        "Œil avec cataracte",
+        "Œil opéré de la cataracte",
+        "Œil normal"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelle est la différence entre un œil aphake et un œil pseudo-phake ?",
+      "answers": [
+        "Aphake : sans cristallin, Pseudo-phake : avec implant",
+        "Aphake : avec implant, Pseudo-phake : sans cristallin",
+        "Aucune différence",
+        "Aphake : cataracte, Pseudo-phake : normal"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce que la phako-émulsification du cristallin ?",
+      "answers": [
+        "Fragmentation du cristallin par ultrasons avec aspiration",
+        "Extraction manuelle du cristallin",
+        "Dissolution chimique du cristallin",
+        "Laser pour fragmenter le cristallin"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Où est placé l'implant lors d'une opération de cataracte ?",
+      "answers": [
+        "Dans la chambre postérieure",
+        "Sur la cornée",
+        "Sur l'iris",
+        "Devant la rétine"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Qu'est-ce qu'une micro-incision cornéenne ?",
+      "answers": [
+        "Petite incision dans la cornée pour l'opération de cataracte",
+        "Incision large dans la sclère",
+        "Incision dans l'iris",
+        "Incision dans la rétine"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelle est la conséquence principale de la cataracte sur la vision ?",
+      "answers": [
+        "Baisse de l'acuité visuelle, perturbation de la vision des couleurs et des contrastes",
+        "Perte totale de vision",
+        "Vision double",
+        "Sensibilité à la lumière uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quelle sensation visuelle est caractéristique de la cataracte ?",
+      "answers": [
+        "Sensation de voile blanc",
+        "Sensation de voile noir",
+        "Vision déformée",
+        "Vision double"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Comment calcule-t-on l'astigmatisme interne à partir de l'astigmatisme total et cornéen ?",
+      "answers": [
+        "En utilisant la relation : At = Ac",
+        "Ai = At - Ac",
+        "Ai = At + Ac",
+        "Ai = At × Ac"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Si l'astigmatisme total est plan (-1,75) 10° et l'astigmatisme cornéen est plan (-1,80) 10°, quel est l'astigmatisme interne ?",
+      "answers": [
+        "Plan (+0,05) 10° ou plan",
+        "Plan",
+        "Plan",
+        "Plan"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quel est le cylindre compensateur d'un astigmatisme cornéen direct de 1,80 δ orienté à 10° ?",
+      "answers": [
+        "Plan",
+        "Plan",
+        "Plan",
+        "Plan"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Un astigmatisme cornéen direct de 1,80 δ est-il physiologique ?",
+      "answers": [
+        "Non, car l'astigmatisme cornéen physiologique est direct de 0,50 δ",
+        "Oui, car il est direct",
+        "Oui, car il est inférieur à 2,00 δ",
+        "Non, car il devrait être inverse"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Qu'est-ce qu'un astigmatisme total physiologique ?",
+      "answers": [
+        "Astigmatisme total nul car l'astigmatisme cornéen et interne se compensent",
+        "Astigmatisme direct de 0,50 δ",
+        "Astigmatisme inverse de 0,50 δ",
+        "Astigmatisme de 1,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelle est la règle d'estimation de l'astigmatisme cornéen ?",
+      "answers": [
+        "Une toricité cornéenne de 0,10 mm induit un astigmatisme cornéen de 0,6 δ",
+        "Une toricité de 0,10 mm induit 0,3 δ d'astigmatisme",
+        "Une toricité de 0,20 mm induit 0,6 δ d'astigmatisme",
+        "Une toricité de 0,10 mm induit 1,0 δ d'astigmatisme"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce qu'un astigmatisme direct ?",
+      "answers": [
+        "Astigmatisme où le rayon de courbure le plus plat (K) est orienté à l'horizontale",
+        "Astigmatisme où le rayon le plus plat est orienté à la verticale",
+        "Astigmatisme oblique",
+        "Astigmatisme inverse"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Pour une compensation en lunettes de -3,00 (-0,75) 0°, quelle est la compensation en lentilles si la distance verre-œil est négligeable ?",
+      "answers": [
+        "-3,00 (-0,75) 0°",
+        "-3,25",
+        "-2,75",
+        "-3,00"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quand peut-on négliger la distance verre-œil en conversion verres/lentilles ?",
+      "answers": [
+        "Quand les vergences sont inférieures à |4,00 δ|",
+        "Quand les vergences sont supérieures à |4,00 δ|",
+        "Toujours",
+        "Jamais"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce que le syndrome 3H-9H ?",
+      "answers": [
+        "Clignements incomplets et moins fréquents lors du travail sur ordinateur",
+        "Syndrome de sécheresse oculaire",
+        "Fatigue visuelle",
+        "Vision floue"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Pourquoi une lentille jetable journalière est-elle préconisée pour un port occasionnel ?",
+      "answers": [
+        "Pas d'entretien quotidien, pas de risque de contamination, lentille neuve à chaque port",
+        "Plus économique",
+        "Meilleure qualité optique",
+        "Plus confortable"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelles sont les trois couches du film lacrymal de l'extérieur vers la cornée ?",
+      "answers": [
+        "Couche lipidique, couche aqueuse, couche mucinique",
+        "Couche aqueuse, couche lipidique, couche mucinique",
+        "Couche mucinique, couche aqueuse, couche lipidique",
+        "Couche lipidique, couche mucinique, couche aqueuse"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quelle structure sécrète la couche mucinique du film lacrymal ?",
+      "answers": [
+        "Cellules caliciformes de la conjonctive",
+        "Glandes de Meibomius",
+        "Glandes lacrymales principales",
+        "Glandes de Krause"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Qu'est-ce que le FBUT (test lacrymal qualitatif invasif) ?",
+      "answers": [
+        "Temps de déchirement du film lacrymal",
+        "Hauteur de la rivière lacrymale",
+        "Volume de larmes",
+        "Qualité du film lacrymal"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Qu'est-ce qu'un test lacrymal quantitatif non invasif ?",
+      "answers": [
+        "Mesure de la hauteur de la rivière lacrymale au biomicroscope",
+        "Mesure du FBUT",
+        "Mesure du volume lacrymal",
+        "Mesure de la qualité des larmes"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Où se localise généralement la pinguécula ?",
+      "answers": [
+        "Sur la conjonctive para-limbique plutôt du côté temporal",
+        "Sur la cornée centrale",
+        "Sur la rétine",
+        "Sur l'iris"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quel type de lentille est préconisé pour un port occasionnel sportif ?",
+      "answers": [
+        "Lentille souple jetable journalière",
+        "Lentille rigide perméable à l'oxygène",
+        "Lentille souple mensuelle",
+        "Lentille souple annuelle"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Pourquoi une lentille souple est-elle préconisée pour un sport de contact ?",
+      "answers": [
+        "Seule une lentille souple est adaptée aux sports violents",
+        "Elle est moins chère",
+        "Elle offre une meilleure vision",
+        "Elle ne nécessite pas d'entretien"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce que l'astigmatisme physiologique ?",
+      "answers": [
+        "Astigmatisme direct de 0,50 δ où l'astigmatisme cornéen et interne se compensent",
+        "Astigmatisme inverse de 0,50 δ",
+        "Astigmatisme direct de 1,00 δ",
+        "Absence d'astigmatisme"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Si une toricité cornéenne de 0,30 mm est mesurée, quel est l'astigmatisme cornéen estimé ?",
+      "answers": [
+        "1,80 δ",
+        "0,60 δ",
+        "1,20 δ",
+        "2,40 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelle est la formule du CCF (Cylindre Croisé Fixe) ?",
+      "answers": [
+        "+0,50",
+        "-0,50",
+        "+1,00",
+        "-1,00"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Comment convertir une distance en mètres en dioptries ?",
+      "answers": [
+        "V = 1/L",
+        "V = L",
+        "V = L²",
+        "V = 1/L²"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile",
+      "explanation": "La formule de conversion est V = 1/L où L est la distance en mètres et V la vergence en dioptries."
+    },
+    {
+      "text": "Quelle est la vergence d'un remotum à 0,25 mètre ?",
+      "answers": [
+        "+4,00 δ",
+        "0,25 δ",
+        "16 δ",
+        "-4,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/0,25 = +4,00 δ. La vergence est l'inverse de la distance en mètres."
+    },
+    {
+      "text": "Quelle est la vergence d'un proximum à 0,20 mètre ?",
+      "answers": [
+        "+5,00 δ",
+        "0,20 δ",
+        "-5,00 δ",
+        "25 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/0,20 = +5,00 δ. Le proximum est le point le plus proche de vision nette."
+    },
+    {
+      "text": "Quelle est la distance en mètres d'une vergence de +2,50 δ ?",
+      "answers": [
+        "0,40 m",
+        "2,50 m",
+        "0,16 m",
+        "25 cm"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "L = 1/2,50 = 0,40 m = 40 cm. Pour convertir une vergence en distance, on prend l'inverse."
+    },
+    {
+      "text": "Quelle est la distance en mètres d'une vergence de -3,00 δ ?",
+      "answers": [
+        "-0,33 m",
+        "3,00 m",
+        "0,33 m",
+        "-3,00 m"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "L = 1/(-3,00) = -0,33 m = -33 cm. Une vergence négative correspond à une distance virtuelle"
+    },
+    {
+      "text": "Quelle est la vergence d'un remotum à 0,50 mètre ?",
+      "answers": [
+        "+2,00 δ",
+        "0,50 δ",
+        "+4,00 δ",
+        "-2,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/0,50 = +2,00 δ. Le remotum est le point le plus éloigné de vision nette."
+    },
+    {
+      "text": "Quelle est la distance en centimètres d'une vergence de +4,00 δ ?",
+      "answers": [
+        "25 cm",
+        "40 cm",
+        "4 cm",
+        "100 cm"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "L = 1/4,00 = 0,25 m = 25 cm. C'est la distance standard de vision de près."
+    },
+    {
+      "text": "Quelle est la distance en centimètres d'une vergence de -5,00 δ ?",
+      "answers": [
+        "-20 cm",
+        "20 cm",
+        "50 cm",
+        "-50 cm"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "L = 1/"
+    },
+    {
+      "text": "Quelle est la formule de Swain pour convertir l'acuité visuelle en dioptries ?",
+      "answers": [
+        "V = 1/AV",
+        "V = AV",
+        "V = AV²",
+        "V = 1/AV²"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "La formule de Swain est V = 1/AV où AV est l'acuité visuelle en dixièmes"
+    },
+    {
+      "text": "Quelle est la vergence correspondant à une acuité visuelle de 5/10 selon Swain ?",
+      "answers": [
+        "+2,00 δ",
+        "0,5 δ",
+        "5,00 δ",
+        "0,20 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/0,5 = +2,00 δ. L'acuité visuelle de 5/10 correspond à 0,5 en décimal."
+    },
+    {
+      "text": "Quelle est la vergence correspondant à une acuité visuelle de 2/10 selon Swain ?",
+      "answers": [
+        "+5,00 δ",
+        "0,2 δ",
+        "2,00 δ",
+        "0,50 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/0,2 = +5,00 δ. Une acuité visuelle faible"
+    },
+    {
+      "text": "Quelle est la vergence correspondant à une acuité visuelle de 10/10 selon Swain ?",
+      "answers": [
+        "+1,00 δ",
+        "10,00 δ",
+        "0,10 δ",
+        "0 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/1,0 = +1,00 δ. Une acuité visuelle parfaite"
+    },
+    {
+      "text": "Quelle est l'acuité visuelle correspondant à une vergence de +4,00 δ selon Swain ?",
+      "answers": [
+        "2,5/10",
+        "4/10",
+        "10/10",
+        "1/10"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "AV = 1/4,00 = 0,25 = 2,5/10. Pour convertir une vergence en acuité visuelle, on prend l'inverse."
+    },
+    {
+      "text": "Quelle est l'acuité visuelle correspondant à une vergence de +2,50 δ selon Swain ?",
+      "answers": [
+        "4/10",
+        "2,5/10",
+        "5/10",
+        "10/10"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "AV = 1/2,50 = 0,40 = 4/10. Le tableau de Swain permet de convertir entre acuité visuelle et vergence."
+    },
+    {
+      "text": "Selon Swain, quelle est la relation entre l'acuité visuelle et la vergence ?",
+      "answers": [
+        "La vergence est l'inverse de l'acuité visuelle",
+        "La vergence est égale à l'acuité visuelle",
+        "La vergence est le carré de l'acuité visuelle",
+        "La vergence est l'inverse du carré de l'acuité visuelle"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "La formule de Swain établit que V = 1/AV, donc la vergence est l'inverse de l'acuité visuelle."
+    },
+    {
+      "text": "Qu'est-ce que le tableau expérimental pour l'astigmatisme ?",
+      "answers": [
+        "Tableau permettant de déterminer l'axe et la valeur du cylindre compensateur d'un astigmatisme",
+        "Tableau de conversion des dioptries",
+        "Tableau d'acuité visuelle",
+        "Tableau de conversion mètres/dioptries"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Dans le tableau expérimental, que représente l'axe du cylindre ?",
+      "answers": [
+        "L'orientation du méridien le plus plat (axe du cylindre négatif) ou du méridien le plus courbe",
+        "La valeur du cylindre",
+        "La sphère",
+        "L'addition"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Dans le tableau expérimental, comment détermine-t-on l'axe de l'astigmatisme ?",
+      "answers": [
+        "En testant différentes orientations",
+        "En calculant directement",
+        "En mesurant la cornée uniquement",
+        "En utilisant uniquement l'autorefractomètre"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Dans le tableau expérimental, comment détermine-t-on la valeur du cylindre ?",
+      "answers": [
+        "En testant différentes valeurs de cylindre à l'axe déterminé et en trouvant celle qui donne la meilleure acuité",
+        "En calculant à partir de la sphère",
+        "En mesurant uniquement la toricité cornéenne",
+        "En utilisant une formule fixe"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelles sont les valeurs de cylindre généralement testées dans le tableau expérimental ?",
+      "answers": [
+        "0,25 δ, 0,50 δ, 0,75 δ, 1,00 δ, 1,25 δ, 1,50 δ, etc.",
+        "0,50 δ, 1,00 δ, 1,50 δ, 2,00 δ",
+        "1,00 δ, 2,00 δ, 3,00 δ",
+        "0,10 δ, 0,20 δ, 0,30 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelles sont les orientations d'axe généralement testées dans le tableau expérimental ?",
+      "answers": [
+        "0°, 15°, 30°, 45°, 60°, 75°, 90°",
+        "0°, 30°, 60°, 90°",
+        "0°, 45°, 90°",
+        "0°, 10°, 20°, 30°, 40°, 50°, 60°, 70°, 80°, 90°"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Dans le tableau expérimental, que signifie une meilleure acuité visuelle à 90° ?",
+      "answers": [
+        "L'axe du cylindre est probablement à 90°",
+        "L'axe du cylindre est à 0°",
+        "Il n'y a pas d'astigmatisme",
+        "L'astigmatisme est oblique"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Dans le tableau expérimental, que signifie une meilleure acuité visuelle à 0° ?",
+      "answers": [
+        "L'axe du cylindre est probablement à 0°",
+        "L'axe du cylindre est à 90°",
+        "Il n'y a pas d'astigmatisme",
+        "L'astigmatisme est oblique"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelle est la méthode complète du tableau expérimental pour l'astigmatisme ?",
+      "answers": [
+        "1) Déterminer l'axe en testant différentes orientations, 2) Déterminer la valeur du cylindre à l'axe trouvé, 3) Affiner si nécessaire",
+        "Tester uniquement la valeur du cylindre",
+        "Tester uniquement l'axe",
+        "Utiliser directement les mesures de la cornée"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Dans le tableau expérimental, que faire si l'acuité visuelle est identique à plusieurs axes ?",
+      "answers": [
+        "Affiner autour de ces axes",
+        "Choisir arbitrairement un axe",
+        "Ignorer l'astigmatisme",
+        "Utiliser uniquement la mesure cornéenne"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelle est la différence entre le tableau expérimental et la mesure objective (autorefractomètre) ?",
+      "answers": [
+        "Le tableau expérimental est subjectif",
+        "Aucune différence",
+        "Le tableau expérimental est objectif, la mesure instrumentale est subjective",
+        "Le tableau expérimental mesure uniquement la cornée"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Dans le tableau expérimental, comment vérifie-t-on la correction finale ?",
+      "answers": [
+        "En vérifiant que l'acuité visuelle est maximale et que le patient est confortable",
+        "En calculant uniquement",
+        "En mesurant uniquement la cornée",
+        "En utilisant uniquement l'autorefractomètre"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelle est la précision généralement recherchée pour l'axe dans le tableau expérimental ?",
+      "answers": [
+        "± 5° à ± 10°",
+        "± 1°",
+        "± 15°",
+        "± 30°"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelle est la précision généralement recherchée pour la valeur du cylindre dans le tableau expérimental ?",
+      "answers": [
+        "± 0,25 δ",
+        "± 0,50 δ",
+        "± 0,10 δ",
+        "± 1,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Selon le tableau de conversion mètres/dioptries, quelle est la vergence correspondant à 0,10 m (10 cm) ?",
+      "answers": [
+        "+10,00 δ",
+        "+5,00 δ",
+        "+2,00 δ",
+        "+1,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/0,10 = 10,00 δ. La vergence est l'inverse de la distance en mètres."
+    },
+    {
+      "text": "Selon le tableau de conversion mètres/dioptries, quelle est la vergence correspondant à 0,33 m (33 cm) ?",
+      "answers": [
+        "+3,00 δ",
+        "+2,00 δ",
+        "+4,00 δ",
+        "+5,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Selon le tableau de conversion mètres/dioptries, quelle est la distance correspondant à +6,00 δ ?",
+      "answers": [
+        "0,167 m (16,7 cm)",
+        "0,25 m (25 cm)",
+        "0,20 m (20 cm)",
+        "0,33 m (33 cm)"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "L = 1/6,00 = 0,167 m = 16,7 cm. Pour convertir une vergence en distance, on prend l'inverse."
+    },
+    {
+      "text": "Selon le tableau de conversion mètres/dioptries, quelle est la distance correspondant à +8,00 δ ?",
+      "answers": [
+        "0,125 m (12,5 cm)",
+        "0,20 m (20 cm)",
+        "0,25 m (25 cm)",
+        "0,10 m (10 cm)"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "L = 1/8,00 = 0,125 m = 12,5 cm. Une vergence élevée correspond à une distance courte."
+    },
+    {
+      "text": "Selon le tableau de conversion mètres/dioptries, quelle est la vergence correspondant à 0,40 m (40 cm) ?",
+      "answers": [
+        "+2,50 δ",
+        "+2,00 δ",
+        "+3,00 δ",
+        "+4,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/0,40 = 2,50 δ. C'est la distance standard de vision de près confortable."
+    },
+    {
+      "text": "Selon le tableau de conversion mètres/dioptries, quelle est la vergence correspondant à 0,67 m (67 cm) ?",
+      "answers": [
+        "+1,50 δ",
+        "+2,00 δ",
+        "+1,00 δ",
+        "+3,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/0,67 ≈ 1,50 δ. C'est une distance intermédiaire de vision."
+    },
+    {
+      "text": "Selon le tableau de conversion mètres/dioptries, quelle est la distance correspondant à +1,25 δ ?",
+      "answers": [
+        "0,80 m (80 cm)",
+        "0,40 m (40 cm)",
+        "0,25 m (25 cm)",
+        "1,00 m (100 cm)"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "L = 1/1,25 = 0,80 m = 80 cm. Pour convertir une vergence en distance, on prend l'inverse."
+    },
+    {
+      "text": "Selon le tableau de conversion mètres/dioptries, quelle est la distance correspondant à +1,75 δ ?",
+      "answers": [
+        "0,571 m (57,1 cm)",
+        "0,50 m (50 cm)",
+        "0,40 m (40 cm)",
+        "0,25 m (25 cm)"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "L = 1/1,75 ≈ 0,571 m = 57,1 cm. Le tableau de conversion permet de passer facilement entre distance et vergence."
+    },
+    {
+      "text": "Selon le tableau de conversion mètres/dioptries, quelle est la vergence correspondant à 1,00 m (100 cm) ?",
+      "answers": [
+        "+1,00 δ",
+        "+2,00 δ",
+        "+0,50 δ",
+        "+4,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile",
+      "explanation": "V = 1/1,00 = 1,00 δ. C'est une conversion simple et fondamentale."
+    },
+    {
+      "text": "Selon le tableau de conversion mètres/dioptries, quelle est la vergence correspondant à 2,00 m (200 cm) ?",
+      "answers": [
+        "+0,50 δ",
+        "+1,00 δ",
+        "+2,00 δ",
+        "+0,25 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/2,00 = 0,50 δ. Plus la distance est grande, plus la vergence est faible."
+    },
+    {
+      "text": "Selon le tableau de Swain, quelle est la vergence correspondant à une acuité visuelle de 1/10 ?",
+      "answers": [
+        "+10,00 δ",
+        "+5,00 δ",
+        "+2,00 δ",
+        "+1,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/0,1 = 10,00 δ. Une acuité visuelle très faible (1/10) correspond à une vergence très élevée."
+    },
+    {
+      "text": "Selon le tableau de Swain, quelle est la vergence correspondant à une acuité visuelle de 3/10 ?",
+      "answers": [
+        "+3,33 δ",
+        "+3,00 δ",
+        "+2,00 δ",
+        "+4,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/0,3 ≈ 3,33 δ. Le tableau de Swain permet de convertir entre acuité visuelle et vergence."
+    },
+    {
+      "text": "Selon le tableau de Swain, quelle est la vergence correspondant à une acuité visuelle de 4/10 ?",
+      "answers": [
+        "+2,50 δ",
+        "+2,00 δ",
+        "+3,00 δ",
+        "+4,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/0,4 = 2,50 δ. Une acuité visuelle de 4/10 correspond à une vergence modérée."
+    },
+    {
+      "text": "Selon le tableau de Swain, quelle est la vergence correspondant à une acuité visuelle de 6/10 ?",
+      "answers": [
+        "+1,67 δ",
+        "+1,50 δ",
+        "+2,00 δ",
+        "+1,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/0,6 ≈ 1,67 δ. Plus l'acuité visuelle est bonne, plus la vergence est faible."
+    },
+    {
+      "text": "Selon le tableau de Swain, quelle est la vergence correspondant à une acuité visuelle de 7/10 ?",
+      "answers": [
+        "+1,43 δ",
+        "+1,50 δ",
+        "+2,00 δ",
+        "+1,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/0,7 ≈ 1,43 δ. Le tableau de Swain est utile pour estimer la correction nécessaire."
+    },
+    {
+      "text": "Selon le tableau de Swain, quelle est la vergence correspondant à une acuité visuelle de 8/10 ?",
+      "answers": [
+        "+1,25 δ",
+        "+1,50 δ",
+        "+1,00 δ",
+        "+2,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "V = 1/0,8 = 1,25 δ. Une bonne acuité visuelle (8/10) nécessite une faible vergence."
+    },
+    {
+      "text": "Selon le tableau de Swain, quelle est la vergence correspondant à une acuité visuelle de 9/10 ?",
+      "answers": [
+        "+1,11 δ",
+        "+1,00 δ",
+        "+1,50 δ",
+        "+2,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Selon le tableau de Swain, quelle est l'acuité visuelle correspondant à une vergence de +3,00 δ ?",
+      "answers": [
+        "3,3/10",
+        "3/10",
+        "5/10",
+        "10/10"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "AV = 1/3,00 = 0,33 = 3,3/10. Pour convertir une vergence en acuité visuelle selon Swain, on prend l'inverse."
+    },
+    {
+      "text": "Selon le tableau de Swain, quelle est l'acuité visuelle correspondant à une vergence de +5,00 δ ?",
+      "answers": [
+        "2/10",
+        "5/10",
+        "10/10",
+        "1/10"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "AV = 1/5,00 = 0,20 = 2/10. Une vergence élevée correspond à une acuité visuelle faible."
+    },
+    {
+      "text": "Selon le tableau de Swain, quelle est l'acuité visuelle correspondant à une vergence de +6,00 δ ?",
+      "answers": [
+        "1,67/10",
+        "6/10",
+        "2/10",
+        "1/10"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "AV = 1/6,00 = 0,167 = 1,67/10. Le tableau de Swain permet de convertir entre vergence et acuité visuelle."
+    },
+    {
+      "text": "Selon le tableau de Swain, quelle est l'acuité visuelle correspondant à une vergence de +8,00 δ ?",
+      "answers": [
+        "1,25/10",
+        "8/10",
+        "2/10",
+        "1/10"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "AV = 1/8,00 = 0,125 = 1,25/10. Plus la vergence est élevée, plus l'acuité visuelle est faible."
+    },
+    {
+      "text": "Selon le tableau de Swain, quelle est l'acuité visuelle correspondant à une vergence de +1,50 δ ?",
+      "answers": [
+        "6,7/10",
+        "1,5/10",
+        "5/10",
+        "10/10"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "AV = 1/1,50 = 0,67 = 6,7/10. Une faible vergence correspond à une bonne acuité visuelle."
+    },
+    {
+      "text": "Dans le tableau expérimental, si l'acuité visuelle est meilleure à 30° qu'à 0° et 90°, que peut-on conclure ?",
+      "answers": [
+        "L'axe du cylindre est probablement autour de 30°",
+        "L'axe est à 0°",
+        "L'axe est à 90°",
+        "Il n'y a pas d'astigmatisme"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Dans le tableau expérimental, si l'acuité visuelle est identique à 0° et 90°, que peut-on conclure ?",
+      "answers": [
+        "L'astigmatisme est probablement oblique",
+        "L'axe est à 0°",
+        "L'axe est à 90°",
+        "L'astigmatisme est direct"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Dans le tableau expérimental, après avoir déterminé l'axe à 15°, comment procède-t-on pour la valeur du cylindre ?",
+      "answers": [
+        "On teste différentes valeurs de cylindre",
+        "On calcule directement la valeur",
+        "On utilise uniquement la mesure cornéenne",
+        "On teste uniquement 1,00 δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Dans le tableau expérimental, si l'acuité visuelle passe de 5/10 à 7/10 avec un cylindre de -0,75 δ à 90°, que faire ?",
+      "answers": [
+        "Tester des valeurs supérieures",
+        "S'arrêter à -0,75 δ",
+        "Tester des valeurs inférieures uniquement",
+        "Changer l'axe"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Dans le tableau expérimental, si l'acuité visuelle est meilleure avec -1,00 δ qu'avec -0,75 δ et -1,25 δ à un axe donné, que conclure ?",
+      "answers": [
+        "La valeur optimale du cylindre est probablement -1,00 δ à cet axe",
+        "Il faut tester d'autres valeurs",
+        "L'axe est incorrect",
+        "Il n'y a pas d'astigmatisme"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Dans le tableau expérimental, quelle est la séquence complète de test pour un astigmatisme ?",
+      "answers": [
+        "1) Test des axes",
+        "Tester uniquement les axes",
+        "Tester uniquement les valeurs de cylindre",
+        "Utiliser directement l'autorefractomètre"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Dans le tableau expérimental, que signifie une acuité visuelle identique à tous les axes testés ?",
+      "answers": [
+        "Il n'y a probablement pas d'astigmatisme significatif ou l'astigmatisme est très faible",
+        "L'axe est à 0°",
+        "L'axe est à 90°",
+        "Il faut tester plus d'axes"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Dans le tableau expérimental, comment affiner l'axe si la meilleure acuité est obtenue à 30° ?",
+      "answers": [
+        "Tester autour de 30° avec des pas plus fins : 25°, 30°, 35°, 40° pour trouver l'axe optimal",
+        "Garder 30°",
+        "Tester uniquement 0° et 90°",
+        "Changer la valeur du cylindre"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Dans le tableau expérimental, si l'acuité visuelle est meilleure avec un cylindre de -1,50 δ qu'avec -1,25 δ et -1,75 δ, que faire ?",
+      "answers": [
+        "Tester des valeurs intermédiaires",
+        "Garder -1,25 δ",
+        "Garder -1,75 δ",
+        "Changer l'axe"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Dans le tableau expérimental, quelle est la différence entre un test d'axe et un test de valeur de cylindre ?",
+      "answers": [
+        "Le test d'axe cherche l'orientation optimale, le test de valeur cherche l'amplitude optimale du cylindre",
+        "Aucune différence",
+        "Le test d'axe cherche la valeur, le test de cylindre cherche l'orientation",
+        "Les deux testent la même chose"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    }
   ]
 }

@@ -3,120 +3,1587 @@
   "questions": [
     {
       "text": "Donnez une définition de l'indice de réfraction du verre.",
-      "answers": ["Le rapport entre la vitesse de la lumière dans le vide et dans le verre", "La densité du verre", "L'épaisseur du verre", "La couleur du verre"],
+      "answers": [
+        "Le rapport entre la vitesse de la lumière dans le vide et dans le verre",
+        "La densité du verre",
+        "L'épaisseur du verre",
+        "La couleur du verre"
+      ],
       "correctAnswerIndex": 0,
-      "difficulty": "facile",
-      "explanation": "L'indice n = c/v où c est la vitesse de la lumière dans le vide et v dans le milieu. Plus n est élevé, plus le verre dévie les rayons."
+      "difficulty": "facile"
     },
     {
       "text": "Quels sont les indices de verres minéraux utilisés en O.L. ?",
-      "answers": ["1,5 - 1,6 - 1,7 - 1,8 - 1,9", "1,0 - 1,2 - 1,4", "2,0 - 2,2 - 2,4", "1,3 - 1,5 - 1,7"],
+      "answers": [
+        "1,5 - 1,6 - 1,7 - 1,8 - 1,9",
+        "1,0 - 1,2 - 1,4",
+        "2,0 - 2,2 - 2,4",
+        "1,3 - 1,5 - 1,7"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "facile"
     },
     {
       "text": "Quels sont les indices des verres organiques, du polycarbonate et du trivex utilisés en O.L. ?",
-      "answers": ["1,5 - 1,6 - 1,67 - 1,74", "1,2 - 1,3 - 1,4", "1,8 - 1,9 - 2,0", "1,4 - 1,5 - 1,6"],
+      "answers": [
+        "1,5 - 1,6 - 1,67 - 1,74",
+        "1,2 - 1,3 - 1,4",
+        "1,8 - 1,9 - 2,0",
+        "1,4 - 1,5 - 1,6"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "facile"
     },
     {
       "text": "Quelles sont les conséquences du choix d'un indice élevé sur un verre organique concave ?",
-      "answers": ["Réduction de l'épaisseur au bord", "Augmentation de l'épaisseur au bord", "Changement de couleur", "Augmentation du poids"],
+      "answers": [
+        "Réduction de l'épaisseur au bord",
+        "Augmentation de l'épaisseur au bord",
+        "Changement de couleur",
+        "Augmentation du poids"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "facile"
     },
     {
       "text": "Donnez les synonymes de la constringence.",
-      "answers": ["Nombre d'Abbe, coefficient d'Abbe", "Indice de réfraction, puissance", "Dispersion, aberration", "Cohérence, polarisation"],
+      "answers": [
+        "Nombre d'Abbe, coefficient d'Abbe",
+        "Indice de réfraction, puissance",
+        "Dispersion, aberration",
+        "Cohérence, polarisation"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "facile"
     },
     {
       "text": "En O.L, la constringence est comprise entre :",
-      "answers": ["20 < v < 60", "10 < v < 30", "60 < v < 100", "100 < v < 150"],
+      "answers": [
+        "20 < v < 60",
+        "10 < v < 30",
+        "60 < v < 100",
+        "100 < v < 150"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "facile"
     },
     {
       "text": "Vaut-il mieux prendre un verre à constringence faible ou élevée ?",
-      "answers": ["Élevée (meilleure qualité optique)", "Faible (moins cher)", "Cela n'a pas d'importance", "Moyenne (compromis)"],
+      "answers": [
+        "Élevée (meilleure qualité optique)",
+        "Faible (moins cher)",
+        "Cela n'a pas d'importance",
+        "Moyenne (compromis)"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "facile"
     },
     {
       "text": "Que provoque la constringence?",
-      "answers": ["L'aberration chromatique", "La réflexion", "L'absorption", "La diffraction"],
+      "answers": [
+        "L'aberration chromatique",
+        "La réflexion",
+        "L'absorption",
+        "La diffraction"
+      ],
       "correctAnswerIndex": 0,
-      "difficulty": "facile",
-      "explanation": "Une constringence faible signifie une dispersion plus forte : les différentes longueurs d'onde sont séparées, d'où des franges colorées (aberration chromatique)."
+      "difficulty": "facile"
     },
     {
       "text": "Comment cela se traduit pour un porteur de lunettes?",
-      "answers": ["Franges colorées sur les bords des objets", "Vision floue", "Fatigue visuelle", "Double vision"],
+      "answers": [
+        "Franges colorées sur les bords des objets",
+        "Vision floue",
+        "Fatigue visuelle",
+        "Double vision"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "facile"
     },
     {
       "text": "Quelles sont les PRINCIPALES caractéristiques « matière » d'un verre marquées sur un catalogue fabricant?",
-      "answers": ["Indice, constringence, masse volumique", "Couleur, forme, taille", "Prix, disponibilité, garantie", "Marque, modèle, année"],
+      "answers": [
+        "Indice, constringence, masse volumique",
+        "Couleur, forme, taille",
+        "Prix, disponibilité, garantie",
+        "Marque, modèle, année"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "facile"
     },
     {
       "text": "Masse volumique d'un verre minéral d'indice 1,5 ?",
-      "answers": ["2,5 g/cm³", "1,5 g/cm³", "3,5 g/cm³", "2,0 g/cm³"],
+      "answers": [
+        "2,5 g/cm³",
+        "1,5 g/cm³",
+        "3,5 g/cm³",
+        "2,0 g/cm³"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "moyen"
     },
     {
       "text": "Masse volumique d'un verre organique d'indice 1,5 ?",
-      "answers": ["1,3 g/cm³", "2,5 g/cm³", "1,0 g/cm³", "1,8 g/cm³"],
+      "answers": [
+        "1,3 g/cm³",
+        "2,5 g/cm³",
+        "1,0 g/cm³",
+        "1,8 g/cm³"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "moyen"
     },
     {
       "text": "Qu'entraîne l'élévation de l'indice sur un verre minéral quant à la masse volumique ?",
-      "answers": ["Augmentation", "Diminution", "Pas de changement", "Variable selon le type"],
+      "answers": [
+        "Augmentation",
+        "Diminution",
+        "Pas de changement",
+        "Variable selon le type"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "moyen"
     },
     {
       "text": "Qu'entraîne l'élévation de l'indice sur un verre quant à la constringence ?",
-      "answers": ["Diminution", "Augmentation", "Pas de changement", "Variable"],
+      "answers": [
+        "Diminution",
+        "Augmentation",
+        "Pas de changement",
+        "Variable"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "difficile"
     },
     {
       "text": "Donner la formule de calcul du coefficient de réflexion d'une surface de verre ?",
-      "answers": ["R = ((n-1)/(n+1))²", "R = n²", "R = n-1", "R = (n+1)/n"],
+      "answers": [
+        "R = ((n-1)/(n+1))²",
+        "R = n²",
+        "R = n-1",
+        "R = (n+1)/n"
+      ],
       "correctAnswerIndex": 0,
-      "difficulty": "moyen",
-      "explanation": "Formule de Fresnel en incidence normale. Plus l'indice n est élevé, plus R augmente (d'où les traitements antireflet sur les verres)."
+      "difficulty": "moyen"
     },
     {
       "text": "Qu'en déduisez-vous concernant l'effet de l'indice sur la réflexion ?",
-      "answers": ["Plus l'indice est élevé, plus la réflexion est importante", "Plus l'indice est faible, plus la réflexion est importante", "L'indice n'influence pas la réflexion", "La réflexion dépend de l'épaisseur"],
+      "answers": [
+        "Plus l'indice est élevé, plus la réflexion est importante",
+        "Plus l'indice est faible, plus la réflexion est importante",
+        "L'indice n'influence pas la réflexion",
+        "La réflexion dépend de l'épaisseur"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "À l'aide d'un schéma, représentez les différents reflets rencontrés par un porteur de lunettes et dites à quoi ils correspondent.",
+      "answers": [
+        "Reflets avant (environnement), reflets arrière (œil)",
+        "Reflets latéraux uniquement",
+        "Reflets internes uniquement",
+        "Un seul type de reflet"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "moyen"
     },
     {
       "text": "Donnez en pourcentage le taux de réflexion par face pour un verre minéral d'indice 1,5.",
-      "answers": ["4%", "10%", "2%", "8%"],
+      "answers": [
+        "4%",
+        "10%",
+        "2%",
+        "8%"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "moyen"
     },
     {
       "text": "Quel est approximativement le taux d'absorption d'un verre teinté Marron classe 3 ?",
-      "answers": ["85-90%", "50-60%", "30-40%", "95-100%"],
+      "answers": [
+        "85-90%",
+        "50-60%",
+        "30-40%",
+        "95-100%"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "moyen"
     },
     {
       "text": "A-t-il des restrictions d'utilisation?",
-      "answers": ["Oui, interdit pour la conduite de nuit", "Non, aucune restriction", "Oui, uniquement en intérieur", "Non, utilisable partout"],
+      "answers": [
+        "Oui, interdit pour la conduite de nuit",
+        "Non, aucune restriction",
+        "Oui, uniquement en intérieur",
+        "Non, utilisable partout"
+      ],
       "correctAnswerIndex": 0,
       "difficulty": "facile"
+    },
+    {
+      "text": "Quelles sont les conditions d'utilisation d'un verre organique teinté Brun D ou 4 ?",
+      "answers": [
+        "Conduite de jour uniquement",
+        "Conduite jour et nuit",
+        "Intérieur uniquement",
+        "Aucune condition particulière"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quel est le principe physique du traitement antireflet?",
+      "answers": [
+        "Interférence destructive des ondes réfléchies",
+        "Absorption de la lumière",
+        "Diffusion de la lumière",
+        "Polarisation de la lumière"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Qu'appelle-t-on traitement antireflet achromatique?",
+      "answers": [
+        "Antireflet qui réduit aussi l'aberration chromatique",
+        "Antireflet coloré",
+        "Antireflet simple face",
+        "Antireflet haute performance"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelles sont les techniques utilisées pour réaliser un traitement durci ?",
+      "answers": [
+        "Trempe thermique, dépôt de couches",
+        "Polissage, meulage",
+        "Teinture, coloration",
+        "Gravure, marquage"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Donnez l'ordre des traitements pour un verre organique « haute performance» teinté.",
+      "answers": [
+        "Teinture, durci, antireflet",
+        "Antireflet, durci, teinture",
+        "Durci, antireflet, teinture",
+        "Teinture, antireflet, durci"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quels sont les avantages et les inconvénients d'un verre asphérique?",
+      "answers": [
+        "Avantages: meilleure qualité optique, plus fin. Inconvénients: centrage strict, prix",
+        "Avantages: moins cher. Inconvénients: plus épais et moins esthétique",
+        "Avantages: plus léger. Inconvénients: plus d'aberrations et de distorsions",
+        "Avantages: plus résistant. Inconvénients: plus lourd et moins confortable"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Existe-t-il des verres asphériques négatifs?",
+      "answers": [
+        "Oui",
+        "Non",
+        "Seulement pour certaines puissances",
+        "Uniquement en organique"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quelle est la règle de centrage des verres asphériques?",
+      "answers": [
+        "Centrage sur l'axe visuel",
+        "Centrage sur le centre géométrique",
+        "Centrage sur le bord",
+        "Centrage libre"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Si vous équipez une lunette «plein champ» VP avec des verres asphériques, d'après quel écart effectuez-vous le centrage, VL ou VP ?",
+      "answers": [
+        "VP (vision de près)",
+        "VL (vision de loin)",
+        "Moyenne des deux",
+        "Peu importe"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Peut-on réaliser un effet prismatique par décentrement sur un verre asphérique ?",
+      "answers": [
+        "Non, déconseillé",
+        "Oui, sans problème",
+        "Oui, mais limité",
+        "Seulement pour les faibles puissances"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quels sont les différentes solutions disponibles pour réduire l'épaisseur au bord d'un verre concave ?",
+      "answers": [
+        "Indice élevé, asphérique, petit diamètre, monture adaptée",
+        "Traitement antireflet uniquement",
+        "Verre organique uniquement",
+        "Réduction de la puissance"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Que veut dire 65 / 70 ?",
+      "answers": [
+        "Diamètre 65mm, diamètre utile 70mm",
+        "Épaisseur 65mm, largeur 70mm",
+        "Puissance 65δ, addition 70δ",
+        "Indice 1,65, constringence 70"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "La mesure de l'écart pupillaire est-elle plus précise au réglet ou au pupillomètre à reflet cornéen.",
+      "answers": [
+        "Pupillomètre à reflet cornéen",
+        "Réglet",
+        "Équivalent",
+        "Dépend du praticien"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelles sont les limites d'utilisation d'un pupillomètre à reflet cornéen ?",
+      "answers": [
+        "Strabisme, opacités cornéennes",
+        "Aucune limite",
+        "Myopie uniquement",
+        "Hyperopie uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Sur une monture, à quoi correspond l'écart sphénoïdal ?",
+      "answers": [
+        "Distance entre les deux cercles de montage",
+        "Largeur de la branche",
+        "Hauteur du verre",
+        "Épaisseur de la monture"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Sur une monture, à quoi correspond l'écart temporal ?",
+      "answers": [
+        "Distance entre le bord externe des verres et la tempe",
+        "Largeur totale de la monture",
+        "Longueur des branches",
+        "Écart pupillaire"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Sur une monture, à quoi correspond la hauteur sourcil ?",
+      "answers": [
+        "Distance entre le haut du verre et le sourcil",
+        "Hauteur totale du verre",
+        "Position du segment",
+        "Inclinaison du verre"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Sur une monture, à quoi correspond la hauteur pommette ?",
+      "answers": [
+        "Distance entre le bas du verre et la pommette",
+        "Hauteur du segment",
+        "Position du centre optique",
+        "Largeur du verre"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Que veut dire « 140 » sur une monture ?",
+      "answers": [
+        "Largeur totale de la monture en mm",
+        "Longueur des branches en mm",
+        "Hauteur du verre en mm",
+        "Épaisseur en mm"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Un client doit remplacer un verre de -4,00δ (écart monture 50 □ 20, 1/2 écart pupillaire 31mm), diamètre utile 65mm, mais vous n'avez que du 80mm. Conséquences esthétiques ?",
+      "answers": [
+        "Oui, verre plus épais au bord",
+        "Non, aucune conséquence",
+        "Oui, mais seulement pour les verres positifs",
+        "Non, le diamètre n'a pas d'impact"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce qu'un «PRESS ON»?",
+      "answers": [
+        "Pastille prismatique collée sur le verre",
+        "Traitement antireflet",
+        "Verre photochromique",
+        "Monture en plastique"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quelle teinte de verre préconise-t-on pour les sujets atteints de rétinite pigmentaire ?",
+      "answers": [
+        "Orange/Ambre",
+        "Gris",
+        "Brun",
+        "Vert"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelles précautions doit-on prendre pour le choix des verres d'un client monophtalme ?",
+      "answers": [
+        "Protection renforcée, verre incassable",
+        "Verre teinté obligatoire",
+        "Verre progressif uniquement",
+        "Aucune précaution particulière"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quels sont les composants que l'on ajoute pour fabriquer un verre organique d'indice élevé ?",
+      "answers": [
+        "Soufre, titane",
+        "Plomb, baryum",
+        "Silicium, oxygène",
+        "Carbone, hydrogène"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quel nom donne-t-on au mode de fabrication d'un verre double foyer minéral ?",
+      "answers": [
+        "Fusion",
+        "Moulage",
+        "Usinage",
+        "Collage"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quels sont les avantages et les inconvénients d'un verre double foyer en général ?",
+      "answers": [
+        "Avantages: 2 distances, prix. Inconvénients: saut d'image, ligne visible",
+        "Avantages: esthétique discrète. Inconvénients: champ de près réduit",
+        "Avantages: léger. Inconvénients: zones de vision moins nettes",
+        "Avantages: résistant. Inconvénients: confort de vision limité"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Avantages et inconvénients d'un verre double foyer organique?",
+      "answers": [
+        "Avantages: léger, résistant. Inconvénients: saut d'image, ligne visible",
+        "Avantages: esthétique améliorée. Inconvénients: plus coûteux à l'achat",
+        "Avantages: mince et discret. Inconvénients: plus sensible aux rayures",
+        "Avantages: économique. Inconvénients: plus lourd et moins confortable"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Existe-t-il des doubles foyers organiques photochromiques?",
+      "answers": [
+        "Oui",
+        "Non",
+        "Seulement certains modèles",
+        "En développement"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quelle est la valeur de l'inclinaison, par rapport à la verticale, du segment rond d'un double foyer organique?",
+      "answers": [
+        "2°",
+        "5°",
+        "10°",
+        "0°"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Avantages et inconvénients d'un verre progressif?",
+      "answers": [
+        "Avantages: vision continue, esthétique. Inconvénients: zones latérales, adaptation",
+        "Avantages: prix plus accessible. Inconvénients: champ de près plus restreint",
+        "Avantages: léger et discret. Inconvénients: plus sensible aux reflets et aux rayures",
+        "Avantages: résistant et stable. Inconvénients: confort inférieur en vision intermédiaire"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "À quoi est dû le prisme d'allégement?",
+      "answers": [
+        "Décentrement du centre optique par rapport à l'axe visuel",
+        "Inclinaison du verre",
+        "Forme de la monture",
+        "Épaisseur du verre"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelle est sa valeur et son orientation?",
+      "answers": [
+        "0,3 à 0,5Δ base inférieure",
+        "1Δ base supérieure",
+        "0,5 à 1Δ base nasale",
+        "Variable selon la puissance"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Expliquer le principe du prisme de Fresnel.",
+      "answers": [
+        "Prisme formé de micro-prismes collés, léger et économique",
+        "Prisme en verre massif",
+        "Prisme coloré",
+        "Prisme asphérique"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Définition du press on.",
+      "answers": [
+        "Pastille prismatique collée sur le verre",
+        "Traitement de surface",
+        "Type de monture",
+        "Verre photochromique"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quand l'utilise-t-on?",
+      "answers": [
+        "Prismes temporaires, essais, faibles puissances",
+        "Toujours",
+        "Uniquement pour les verres positifs",
+        "Jamais"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Un client hypérope astigmate de +3,00(+1,00)90° ODG choisit une monture. Où se trouve l'épaisseur maximale?",
+      "answers": [
+        "Au bord nasal",
+        "Au bord temporal",
+        "Au centre",
+        "Uniforme"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelles sont les conditions de préconisation d'un verre au calibre?",
+      "answers": [
+        "Puissance élevée, monture spécifique, esthétique",
+        "Toujours",
+        "Uniquement pour les verres négatifs",
+        "Jamais"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Peut-on précalibrer un verre double foyer?",
+      "answers": [
+        "Oui",
+        "Non",
+        "Seulement certains modèles",
+        "Déconseillé"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Pouvez-vous réaliser l'effet prismatique par décentrement au frontofocomètre ?",
+      "answers": [
+        "Oui, en décentrant le verre",
+        "Non",
+        "Seulement pour les faibles puissances",
+        "Uniquement en atelier"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quel diamètre standard de verre commandez-vous?",
+      "answers": [
+        "70mm",
+        "65mm",
+        "75mm",
+        "80mm"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "À qui préconisez-vous un verre mi-distance?",
+      "answers": [
+        "Personnes travaillant à distance intermédiaire (ordinateur)",
+        "Myopes uniquement",
+        "Hyperopes uniquement",
+        "Tout le monde"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Expliquez le principe des verres polarisants.",
+      "answers": [
+        "Filtrent la lumière réfléchie horizontale, réduisent les éblouissements",
+        "Changent la couleur",
+        "Amplifient la lumière",
+        "Réduisent l'UV"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Dans quels cas les préconise-t-on?",
+      "answers": [
+        "Conduite, sports nautiques, activités extérieures",
+        "Toujours",
+        "Uniquement en intérieur",
+        "Pour les myopes uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Représentez le schéma TABO en précisant OD et OG, nez, tempes, haut, bas.",
+      "answers": [
+        "OD à gauche, OG à droite, nez au centre, 0° en haut, 180° en bas",
+        "OD à droite, OG à gauche",
+        "0° en bas, 180° en haut",
+        "Sens inverse des aiguilles"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "À quel axe (TABO) correspond base nasale sur un œil gauche?",
+      "answers": [
+        "90°",
+        "0°",
+        "180°",
+        "270°"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Définition du centre BOXING.",
+      "answers": [
+        "Centre géométrique de la forme",
+        "Centre optique",
+        "Centre de gravité",
+        "Point de référence"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Définition du centre DATUM.",
+      "answers": [
+        "Centre de référence pour le surfaçage",
+        "Centre optique",
+        "Centre géométrique",
+        "Point de mesure"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'appelle-t-on calibre passif?",
+      "answers": [
+        "Calibre qui ne modifie pas la forme",
+        "Calibre actif",
+        "Calibre standard",
+        "Calibre numérique"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'appelle-t-on calibre actif?",
+      "answers": [
+        "Calibre qui modifie la forme pour optimiser",
+        "Calibre passif",
+        "Calibre standard",
+        "Calibre manuel"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelle épaisseur au bord minimale en 1/10ème mm doit-on préconiser pour un montage « plastique»?",
+      "answers": [
+        "1,0 mm",
+        "0,5 mm",
+        "1,5 mm",
+        "2,0 mm"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelle épaisseur au bord minimale en 1/10ème mm doit-on préconiser pour un montage métal ?",
+      "answers": [
+        "0,8 mm",
+        "1,0 mm",
+        "1,2 mm",
+        "0,5 mm"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelle épaisseur au bord minimale en 1/10ème mm doit-on préconiser pour un montage nylor ?",
+      "answers": [
+        "1,2 mm",
+        "1,0 mm",
+        "1,5 mm",
+        "0,8 mm"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelle épaisseur au bord minimale en 1/10ème mm doit-on préconiser pour un montage percé ?",
+      "answers": [
+        "1,5 mm",
+        "1,0 mm",
+        "1,2 mm",
+        "2,0 mm"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Dans quels buts réalise-t-on un verre au calibre?",
+      "answers": [
+        "Optimiser l'épaisseur, esthétique, poids",
+        "Réduire le prix",
+        "Augmenter la résistance",
+        "Changer la couleur"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quels sont les avantages d'un verre en polycarbonate?",
+      "answers": [
+        "Résistant aux chocs, léger, filtre UV",
+        "Moins cher",
+        "Plus fin",
+        "Meilleure qualité optique"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quels sont les inconvénients d'un verre en polycarbonate?",
+      "answers": [
+        "Faible constringence, rayable, coût",
+        "Lourd",
+        "Fragile",
+        "Épais"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quelles précautions doit-on prendre pour nettoyer un verre en polycarbonate?",
+      "answers": [
+        "Éviter les produits abrasifs, utiliser produits adaptés",
+        "Aucune précaution",
+        "Nettoyage sec uniquement",
+        "Produits agressifs autorisés"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quels sont les avantages d'une monture en titane?",
+      "answers": [
+        "Léger, résistant à la corrosion, hypoallergénique",
+        "Moins cher",
+        "Plus lourd",
+        "Moins résistant"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Qu'est-ce que le beta-titane?",
+      "answers": [
+        "Alliage de titane plus flexible",
+        "Titane pur",
+        "Titane coloré",
+        "Titane renforcé"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce que le doublé or?",
+      "answers": [
+        "Monture en métal recouverte d'une couche d'or",
+        "Or pur",
+        "Alliage d'or",
+        "Or plaqué"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Que veut dire 18 carats, 20/1000ème sur une monture en doublé or?",
+      "answers": [
+        "18 carats = 750/1000, épaisseur 20 microns",
+        "18 carats = 500/1000",
+        "18 carats = 1000/1000",
+        "Épaisseur 18 microns"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Qu'est-ce que le plaqué or?",
+      "answers": [
+        "Dépôt électrolytique d'or plus fin que doublé",
+        "Or massif",
+        "Or doublé",
+        "Alliage d'or"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quels sont les alliages utilisés en Optique lunetterie servant de base pour la fabrication des montures?",
+      "answers": [
+        "Monel, acier inoxydable, alliages de cuivre",
+        "Aluminium uniquement",
+        "Plastique uniquement",
+        "Titane uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quel défaut peut-on reprocher à ces alliages?",
+      "answers": [
+        "Oxydation, allergie possible",
+        "Trop lourds",
+        "Trop fragiles",
+        "Trop chers"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quelles sont les propriétés d'une monture en écaille naturelle?",
+      "answers": [
+        "Légère, résistante, esthétique, cher",
+        "Lourde",
+        "Fragile",
+        "Bon marché"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelle est la particularité de l'OPTYL?",
+      "answers": [
+        "Matériau organique flexible et résistant",
+        "Verre minéral",
+        "Métal",
+        "Plastique standard"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "À qui préconise-t-on un verre «OMEGA»?",
+      "answers": [
+        "Enfants, sportifs (résistance aux chocs)",
+        "Personnes âgées",
+        "Myopes uniquement",
+        "Tout le monde"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce qu'un pseudophaque?",
+      "answers": [
+        "Personne ayant un implant cristallinien",
+        "Personne sans cristallin",
+        "Personne myope",
+        "Personne hyperope"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce qu'un aphaque?",
+      "answers": [
+        "Personne sans cristallin",
+        "Personne avec implant",
+        "Personne myope",
+        "Personne hyperope"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Procédés de coloration des verres minéraux?",
+      "answers": [
+        "Trempe dans bain métallique, dépôt de couches",
+        "Teinture dans masse",
+        "Collage de film",
+        "Peinture"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Procédé de coloration d'un verre organique?",
+      "answers": [
+        "Teinture dans bain de colorants",
+        "Trempe",
+        "Dépôt",
+        "Injection"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "À qui préconise-t-on un verre gris?",
+      "answers": [
+        "Usage général, respecte les couleurs",
+        "Myopes uniquement",
+        "Hyperopes uniquement",
+        "Personnes âgées"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quelle couleur est filtrée par un verre vert?",
+      "answers": [
+        "Rouge",
+        "Bleu",
+        "Vert",
+        "Jaune"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelle couleur laisse passer un verre Brun?",
+      "answers": [
+        "Rouge, orange",
+        "Bleu, vert",
+        "Toutes les couleurs",
+        "Aucune"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quel est le composant de base du verre minéral?",
+      "answers": [
+        "Silice (SiO₂)",
+        "Carbone",
+        "Plastique",
+        "Métal"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Qu'introduit-on dans la composition du verre minéral pour réaliser un haut indice, 1,7 par exemple ?",
+      "answers": [
+        "Oxydes de plomb, baryum, titane",
+        "Carbone",
+        "Plastique",
+        "Métal pur"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelle matière première utilise-t-on pour réaliser la pastille vision de près d'un verre double foyer minéral?",
+      "answers": [
+        "Verre de flint (indice élevé)",
+        "Verre de crown",
+        "Plastique",
+        "Résine"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quel est le matériau de base d'un verre organique?",
+      "answers": [
+        "CR-39 (polycarbonate de diéthylène glycol bis-allyl)",
+        "Silice",
+        "Verre",
+        "Métal"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quel est le nom exact de ce monomère?",
+      "answers": [
+        "CR-39",
+        "Polycarbonate",
+        "Trivex",
+        "PMMA"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quels sont les repères de centrage pour un verre progressif ?",
+      "answers": [
+        "Marques d'usinage, croix de centrage",
+        "Bord du verre",
+        "Centre géométrique",
+        "Segment"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quels sont les repères de centrage pour un verre double foyer ?",
+      "answers": [
+        "Ligne de séparation, centre du segment",
+        "Bord du verre",
+        "Centre optique",
+        "Marques d'usinage"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Définition de l'angle de face?",
+      "answers": [
+        "Angle entre le plan du verre et la verticale",
+        "Angle entre les branches",
+        "Angle d'inclinaison",
+        "Angle de chasse"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Définition de l'angle de chasse ?",
+      "answers": [
+        "Angle d'inclinaison des branches",
+        "Angle du verre",
+        "Angle de face",
+        "Angle pupillaire"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Lors de l'ajustage, si vous augmentez l'angle d'ouverture, que se passe-t-il au niveau de la distance verre / œil : augmentation ou diminution?",
+      "answers": [
+        "Diminution",
+        "Augmentation",
+        "Pas de changement",
+        "Variable"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Comment réalise-t-on un traitement anti-rayures?",
+      "answers": [
+        "Dépôt de couches durcies",
+        "Polissage",
+        "Teinture",
+        "Collage"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelle devrait être la valeur de l'addition d'une personne de 58 ans qui travaille à 33 cm ?",
+      "answers": [
+        "+2,50 à +3,00δ",
+        "+1,00δ",
+        "+1,50δ",
+        "+4,00δ"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Sur un verre progressif standard, généralement, quelle est la face progressive ?",
+      "answers": [
+        "Face avant (convexe)",
+        "Face arrière (concave)",
+        "Les deux faces",
+        "Dépend du fabricant"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "De combien sont distants les cercles gravés sur un verre progressif? (Valeur normalisée)",
+      "answers": [
+        "34mm",
+        "30mm",
+        "40mm",
+        "28mm"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Lors de l'ajustage d'une monture équipée de verres progressifs, en principe la valeur de l'angle d'inclinaison doit être comprise entre ?",
+      "answers": [
+        "8° < angle < 12°",
+        "5° < angle < 8°",
+        "12° < angle < 15°",
+        "0° < angle < 5°"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Lors de l'ajustage d'une monture équipée de verres progressifs, quelle doit être la distance verre/œil ?",
+      "answers": [
+        "10mm < distance < 14mm",
+        "5mm < distance < 10mm",
+        "14mm < distance < 18mm",
+        "18mm < distance < 22mm"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Expliquez : ∅ 75 / 80 ?",
+      "answers": [
+        "Diamètre 75mm, diamètre utile 80mm",
+        "Épaisseur 75mm, largeur 80mm",
+        "Puissance 75δ, addition 80δ",
+        "Indice 1,75, constringence 80"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Peut-on réaliser un double foyer avec une addition de 2,4δ ?",
+      "answers": [
+        "Oui",
+        "Non",
+        "Seulement certains modèles",
+        "Déconseillé"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Différence entre tropie et phorie ?",
+      "answers": [
+        "Tropie: déviation permanente. Phorie: déviation latente",
+        "Aucune différence",
+        "Tropie: latente. Phorie: permanente",
+        "Termes synonymes"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce qu'un kératocône ?",
+      "answers": [
+        "Déformation de la cornée en forme de cône",
+        "Déformation du cristallin",
+        "Maladie de la rétine",
+        "Défaut de vision"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce qu'un nystagmus ?",
+      "answers": [
+        "Mouvement involontaire des yeux",
+        "Déformation de la cornée",
+        "Maladie de la rétine",
+        "Défaut de vision"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce que la cataracte ?",
+      "answers": [
+        "Opacification du cristallin",
+        "Déformation de la cornée",
+        "Maladie de la rétine",
+        "Défaut de vision"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Qu'est-ce que la DMLA ?",
+      "answers": [
+        "Dégénérescence Maculaire Liée à l'Âge",
+        "Déformation de la cornée",
+        "Maladie du cristallin",
+        "Défaut de vision"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Qu'est-ce qu'une rétinite pigmentaire ?",
+      "answers": [
+        "Maladie dégénérative de la rétine",
+        "Déformation de la cornée",
+        "Maladie du cristallin",
+        "Défaut de vision"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce qu'un glaucome ?",
+      "answers": [
+        "Augmentation de la pression intraoculaire",
+        "Déformation de la cornée",
+        "Maladie de la rétine",
+        "Défaut de vision"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Qu'est-ce que la rétinopathie diabétique ?",
+      "answers": [
+        "Complication du diabète affectant la rétine",
+        "Déformation de la cornée",
+        "Maladie du cristallin",
+        "Défaut de vision"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce que l'albinisme ?",
+      "answers": [
+        "Absence de pigmentation, sensibilité à la lumière",
+        "Excès de pigmentation",
+        "Maladie de la rétine",
+        "Défaut de vision"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce qu'une aniridie ?",
+      "answers": [
+        "Absence d'iris",
+        "Absence de pupille",
+        "Maladie de la rétine",
+        "Défaut de vision"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelle est une des conséquences majeures (en dehors de l'altération des fonctions visuelles) des sept dernières pathologies visuelles citées précédemment?",
+      "answers": [
+        "Photophobie (sensibilité à la lumière)",
+        "Cécité totale",
+        "Double vision",
+        "Fatigue visuelle"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Comment y remédier?",
+      "answers": [
+        "Verres teintés, filtres spéciaux, protection UV",
+        "Chirurgie uniquement",
+        "Médicaments",
+        "Exercices oculaires"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est-ce que le procédé TRANSITIONS ?",
+      "answers": [
+        "Verres photochromiques qui s'assombrissent à la lumière",
+        "Traitement antireflet",
+        "Verres polarisants",
+        "Verres teintés"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Qu'est-ce qu'un traitement contre la lumière bleue ?",
+      "answers": [
+        "Filtre qui bloque la lumière bleue nocive",
+        "Traitement antireflet",
+        "Verres teintés",
+        "Verres polarisants"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quelle est la longueur d'onde de la lumière bleue néfaste ?",
+      "answers": [
+        "400-450 nm",
+        "500-550 nm",
+        "600-650 nm",
+        "300-350 nm"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "À quoi est dû le défaut de puissance sur un verre correcteur ?",
+      "answers": [
+        "Différence entre puissance prescrite et réalisée",
+        "Forme de la monture",
+        "Épaisseur du verre",
+        "Couleur du verre"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Sur un double foyer, à quoi est dû le saut d'image ?",
+      "answers": [
+        "Différence de puissance entre zone VP et VL",
+        "Forme du segment",
+        "Épaisseur du verre",
+        "Couleur du verre"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "En quoi consiste le surfaçage numérique ou free form ?",
+      "answers": [
+        "Surfaçage personnalisé par calcul numérique",
+        "Surfaçage manuel",
+        "Surfaçage standard",
+        "Surfaçage mécanique"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Donner la formule de calcul de la profondeur de champ pour un verre de proximité ?",
+      "answers": [
+        "PDC = 2 × addition × (distance de travail)²",
+        "PDC = addition × distance",
+        "PDC = addition / distance",
+        "PDC = distance / addition"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelles types d'aberrations trouve-t-on dans les zones latérales d'un verre progressif?",
+      "answers": [
+        "Astigmatisme, distorsion",
+        "Aucune",
+        "Aberration chromatique uniquement",
+        "Coma uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Qu'est-ce qu'une surface atorique ?",
+      "answers": [
+        "Surface avec astigmatisme corrigé",
+        "Surface sphérique",
+        "Surface asphérique",
+        "Surface plane"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelles sont les mesures spécifiques à prendre pour un progressif individualisé ?",
+      "answers": [
+        "Hauteur pupillaire, distance verre-œil, angle pantoscopique, angle de face",
+        "Écart pupillaire uniquement",
+        "Puissance uniquement",
+        "Aucune mesure spécifique"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quelles sont les valeurs moyennes pour ces mesures ?",
+      "answers": [
+        "HP: 16-20mm, DVO: 12mm, pantoscopique: 10°, face: 0°",
+        "HP: 10mm, DVO: 5mm",
+        "HP: 25mm, DVO: 20mm",
+        "Variables"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Un verre «blanc» ou sans teinte appartient-il à la classe 0 ?",
+      "answers": [
+        "Oui",
+        "Non",
+        "Dépend du fabricant",
+        "Classe 1"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quelles mesures doit-on prendre pour monter un double foyer type segment courbe ?",
+      "answers": [
+        "Hauteur du segment, centrage horizontal",
+        "Écart pupillaire uniquement",
+        "Puissance uniquement",
+        "Aucune mesure"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'est ce qui fait que les derniers antireflets (Neva Max ou Crizal Forte, HVLL par exemple) résistent mieux à la rayure?",
+      "answers": [
+        "Couches durcies supplémentaires, technologie améliorée",
+        "Épaisseur plus importante",
+        "Matériau différent",
+        "Traitement spécial"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelle phorie compense-t-on avec des prismes base externe ?",
+      "answers": [
+        "Ésophorie",
+        "Exophorie",
+        "Hyperphorie",
+        "Hypophorie"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelle phorie compense-t-on avec des prismes base interne?",
+      "answers": [
+        "Exophorie",
+        "Ésophorie",
+        "Hyperphorie",
+        "Hypophorie"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Quelle phorie compense-t-on avec un prisme base supérieure sur OD ?",
+      "answers": [
+        "Hypophorie",
+        "Hyperphorie",
+        "Ésophorie",
+        "Exophorie"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Trivex ? Définition, propriétés, caractéristiques ?",
+      "answers": [
+        "Matériau organique, indice 1,53, résistant, bonne qualité optique",
+        "Verre minéral",
+        "Polycarbonate",
+        "Plastique standard"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Tribrid ? Définition, propriétés, caractéristiques ?",
+      "answers": [
+        "Matériau hybride, combinaison de propriétés",
+        "Verre minéral",
+        "Polycarbonate",
+        "Trivex"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Qui était Monsieur Ernst ABBE ?",
+      "answers": [
+        "Physicien allemand, cofondateur de Zeiss",
+        "Inventeur des lunettes modernes",
+        "Fabricant historique de montures",
+        "Ophtalmologiste spécialiste de la réfraction"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
     }
   ]
 }
