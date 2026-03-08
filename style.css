@@ -1,0 +1,349 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+}
+
+.gradient {
+  background: linear-gradient(135deg, rgba(0, 100, 220, 0.92) 0%, rgba(140, 60, 180, 0.92) 100%);
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin: 0 0 0.25rem;
+  color: #ffd700;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+.tagline {
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.95;
+}
+
+.home {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.05rem;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+.card-icon {
+  font-size: 1.5rem;
+}
+
+.card-pdm { background: linear-gradient(90deg, #22c55e, #16a34a); }
+.card-etso { background: linear-gradient(90deg, #f97316, #ea580c); }
+.card-vision { background: linear-gradient(90deg, #a855f7, #c084fc); }
+.card-optique { background: linear-gradient(90deg, #0d9488, #2dd4bf); }
+.card-semantix { background: linear-gradient(90deg, #dc2626, #f87171); }
+
+.footer {
+  text-align: center;
+  font-size: 0.8rem;
+  opacity: 0.85;
+  margin-top: 1.5rem;
+}
+
+.footer p { margin: 0; }
+
+/* Quiz pages */
+.quiz-container {
+  max-width: 560px;
+  margin: 0 auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255,255,255,0.95);
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.back-link:hover { text-decoration: underline; }
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.quiz-title { font-size: 1.25rem; margin: 0; }
+
+.score {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffd700;
+}
+
+.question-block {
+  background: rgba(0,0,0,0.2);
+  border-radius: 14px;
+  padding: 1.35rem;
+  margin-bottom: 1.25rem;
+}
+
+.question-text {
+  font-size: 1.05rem;
+  line-height: 1.45;
+  margin: 0 0 1rem;
+}
+
+.answers {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.answers li {
+  margin-bottom: 10px;
+}
+
+.answer-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  border: 2px solid rgba(255,255,255,0.4);
+  border-radius: 10px;
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  font-size: 0.98rem;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.answer-btn:hover {
+  background: rgba(255,255,255,0.22);
+  border-color: rgba(255,255,255,0.6);
+}
+
+.answer-btn.correct {
+  background: rgba(34, 197, 94, 0.5);
+  border-color: #22c55e;
+}
+
+.answer-btn.wrong {
+  background: rgba(239, 68, 68, 0.4);
+  border-color: #ef4444;
+}
+
+.answer-btn:disabled {
+  cursor: default;
+  opacity: 0.9;
+}
+
+.quiz-explanation {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(255,255,255,0.15);
+  border-radius: 10px;
+  border-left: 4px solid #ffd700;
+}
+
+.quiz-explanation-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  color: #ffd700;
+}
+
+.quiz-explanation-text {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  margin: 0;
+  color: rgba(255,255,255,0.95);
+}
+
+.next-btn {
+  padding: 14px 28px;
+  border: none;
+  border-radius: 10px;
+  background: #ffd700;
+  color: #1a1a2e;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.next-btn:hover { background: #facc15; }
+
+.result-screen {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.result-screen h2 { margin: 0 0 0.5rem; font-size: 1.5rem; }
+.result-screen .score { font-size: 1.5rem; margin: 0.5rem 0; }
+.result-screen .back-link { margin-top: 1rem; }
+
+/* Semantix – comme l'app : légende, barre de degré, °C */
+.semantix-box {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.semantix-input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.semantix-input-row input {
+  flex: 1;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 2px solid rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  font-size: 1rem;
+}
+
+.semantix-input-row input::placeholder { color: rgba(255,255,255,0.6); }
+
+.semantix-input-row button {
+  padding: 14px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #22c55e;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.semantix-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.9);
+}
+
+.semantix-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.semantix-legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.guesses-list { margin-top: 1rem; }
+
+.guess-item {
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.15);
+}
+
+.guess-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.guess-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.guess-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.guess-heat {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.guess-temp {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.9);
+}
+
+.guess-bar-wrap {
+  margin-top: 4px;
+}
+
+.guess-bar-bg {
+  height: 10px;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.2);
+  overflow: hidden;
+}
+
+.guess-bar-fill {
+  height: 100%;
+  border-radius: 6px;
+  min-width: 4px;
+  transition: width 0.2s ease;
+}
+
+.win-msg { color: #ffd700; font-size: 1.2rem; font-weight: 700; margin: 1rem 0; }

@@ -1,0 +1,5 @@
+# Netlify – déploiement du site web (quiz PDM, ETSO, Vision, Optique, Semantix)
+# Connectez votre nom de domaine dans Domain management.
+
+[build]
+  publish = "web-app"

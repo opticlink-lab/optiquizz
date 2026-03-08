@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Semantix optique | Champion Optiquizz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app gradient">
+    <div class="quiz-container semantix-box">
+      <a href="index.html" class="back-link">← Accueil</a>
+      <h1 class="quiz-title">Semantix optique</h1>
+      <p id="semantix-hint" class="tagline">Chargement…</p>
+      <p id="semantix-msg"></p>
+      <div class="semantix-input-row">
+        <input type="text" id="semantix-input" placeholder="Propose un mot optique (ex : lentille)" autocomplete="off">
+        <button type="button" id="semantix-submit">Proposer</button>
+      </div>
+      <div id="semantix-legend" class="semantix-legend"></div>
+      <div id="guesses-list" class="guesses-list"></div>
+    </div>
+  </div>
+  <script src="js/semantix.js"></script>
+  <script>runSemantix();</script>
+</body>
+</html>
