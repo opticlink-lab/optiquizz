@@ -1,0 +1,122 @@
+{
+  "title": "PDM – Questions",
+  "questions": [
+    {
+      "text": "Donnez une définition de l'indice de réfraction du verre.",
+      "answers": ["Le rapport entre la vitesse de la lumière dans le vide et dans le verre", "La densité du verre", "L'épaisseur du verre", "La couleur du verre"],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile",
+      "explanation": "L'indice n = c/v où c est la vitesse de la lumière dans le vide et v dans le milieu. Plus n est élevé, plus le verre dévie les rayons."
+    },
+    {
+      "text": "Quels sont les indices de verres minéraux utilisés en O.L. ?",
+      "answers": ["1,5 - 1,6 - 1,7 - 1,8 - 1,9", "1,0 - 1,2 - 1,4", "2,0 - 2,2 - 2,4", "1,3 - 1,5 - 1,7"],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quels sont les indices des verres organiques, du polycarbonate et du trivex utilisés en O.L. ?",
+      "answers": ["1,5 - 1,6 - 1,67 - 1,74", "1,2 - 1,3 - 1,4", "1,8 - 1,9 - 2,0", "1,4 - 1,5 - 1,6"],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quelles sont les conséquences du choix d'un indice élevé sur un verre organique concave ?",
+      "answers": ["Réduction de l'épaisseur au bord", "Augmentation de l'épaisseur au bord", "Changement de couleur", "Augmentation du poids"],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Donnez les synonymes de la constringence.",
+      "answers": ["Nombre d'Abbe, coefficient d'Abbe", "Indice de réfraction, puissance", "Dispersion, aberration", "Cohérence, polarisation"],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "En O.L, la constringence est comprise entre :",
+      "answers": ["20 < v < 60", "10 < v < 30", "60 < v < 100", "100 < v < 150"],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Vaut-il mieux prendre un verre à constringence faible ou élevée ?",
+      "answers": ["Élevée (meilleure qualité optique)", "Faible (moins cher)", "Cela n'a pas d'importance", "Moyenne (compromis)"],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Que provoque la constringence?",
+      "answers": ["L'aberration chromatique", "La réflexion", "L'absorption", "La diffraction"],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile",
+      "explanation": "Une constringence faible signifie une dispersion plus forte : les différentes longueurs d'onde sont séparées, d'où des franges colorées (aberration chromatique)."
+    },
+    {
+      "text": "Comment cela se traduit pour un porteur de lunettes?",
+      "answers": ["Franges colorées sur les bords des objets", "Vision floue", "Fatigue visuelle", "Double vision"],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Quelles sont les PRINCIPALES caractéristiques « matière » d'un verre marquées sur un catalogue fabricant?",
+      "answers": ["Indice, constringence, masse volumique", "Couleur, forme, taille", "Prix, disponibilité, garantie", "Marque, modèle, année"],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    },
+    {
+      "text": "Masse volumique d'un verre minéral d'indice 1,5 ?",
+      "answers": ["2,5 g/cm³", "1,5 g/cm³", "3,5 g/cm³", "2,0 g/cm³"],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Masse volumique d'un verre organique d'indice 1,5 ?",
+      "answers": ["1,3 g/cm³", "2,5 g/cm³", "1,0 g/cm³", "1,8 g/cm³"],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'entraîne l'élévation de l'indice sur un verre minéral quant à la masse volumique ?",
+      "answers": ["Augmentation", "Diminution", "Pas de changement", "Variable selon le type"],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Qu'entraîne l'élévation de l'indice sur un verre quant à la constringence ?",
+      "answers": ["Diminution", "Augmentation", "Pas de changement", "Variable"],
+      "correctAnswerIndex": 0,
+      "difficulty": "difficile"
+    },
+    {
+      "text": "Donner la formule de calcul du coefficient de réflexion d'une surface de verre ?",
+      "answers": ["R = ((n-1)/(n+1))²", "R = n²", "R = n-1", "R = (n+1)/n"],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen",
+      "explanation": "Formule de Fresnel en incidence normale. Plus l'indice n est élevé, plus R augmente (d'où les traitements antireflet sur les verres)."
+    },
+    {
+      "text": "Qu'en déduisez-vous concernant l'effet de l'indice sur la réflexion ?",
+      "answers": ["Plus l'indice est élevé, plus la réflexion est importante", "Plus l'indice est faible, plus la réflexion est importante", "L'indice n'influence pas la réflexion", "La réflexion dépend de l'épaisseur"],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Donnez en pourcentage le taux de réflexion par face pour un verre minéral d'indice 1,5.",
+      "answers": ["4%", "10%", "2%", "8%"],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "Quel est approximativement le taux d'absorption d'un verre teinté Marron classe 3 ?",
+      "answers": ["85-90%", "50-60%", "30-40%", "95-100%"],
+      "correctAnswerIndex": 0,
+      "difficulty": "moyen"
+    },
+    {
+      "text": "A-t-il des restrictions d'utilisation?",
+      "answers": ["Oui, interdit pour la conduite de nuit", "Non, aucune restriction", "Oui, uniquement en intérieur", "Non, utilisable partout"],
+      "correctAnswerIndex": 0,
+      "difficulty": "facile"
+    }
+  ]
+}

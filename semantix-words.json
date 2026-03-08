@@ -1,0 +1,19 @@
+{
+  "words": [
+    {"text": "rétine", "category": "Anatomie", "definition": "Tissu nerveux tapissant le fond de l'œil, siège de la formation de l'image."},
+    {"text": "cornée", "category": "Anatomie", "definition": "Milieu transparent et fortement convergent situé en avant de l'œil."},
+    {"text": "cristallin", "category": "Anatomie", "definition": "Lentille biconvexe intraoculaire responsable de l'accommodation."},
+    {"text": "lentille", "category": "Optique géométrique", "definition": "Système optique centré formé de deux dioptres sphériques ou sphérique et plan."},
+    {"text": "foyer", "category": "Optique géométrique", "definition": "Point où convergent (ou d'où divergent) les rayons incidents parallèles à l'axe."},
+    {"text": "vergence", "category": "Optique géométrique", "definition": "Mesure en dioptries de la puissance d'un système optique (V = 1/f')."},
+    {"text": "myopie", "category": "Pathologie / Ametropie", "definition": "Ametropie dans laquelle l'image de loin se forme en avant de la rétine."},
+    {"text": "hypermétropie", "category": "Pathologie / Ametropie", "definition": "Ametropie dans laquelle l'image de loin se forme en arrière de la rétine."},
+    {"text": "astigmatisme", "category": "Pathologie / Ametropie", "definition": "Défaut optique où les foyers des différents méridiens ne coïncident pas."},
+    {"text": "réfraction", "category": "Optique physique", "definition": "Changement de direction d'un rayon lumineux lors du passage entre deux milieux."},
+    {"text": "microscope", "category": "Systèmes optiques", "definition": "Instrument optique qui permet d'observer des petits objets en les agrandissant."},
+    {"text": "lunette", "category": "Systèmes optiques", "definition": "Système optique destiné à observer des objets éloignés (lunette astronomique, terrestre...)."},
+    {"text": "pupille", "category": "Anatomie / examen de vue", "definition": "Ouverture centrale de l'iris, contrôle la quantité de lumière qui entre dans l'œil."},
+    {"text": "acuité", "category": "Examen de vue", "definition": "Capacité à distinguer deux points séparés (Acuité visuelle VL / VP)."},
+    {"text": "dioptrie", "category": "Optique géométrique", "definition": "Unité de vergence (δ), égale à l'inverse de la distance focale en mètres."}
+  ]
+}

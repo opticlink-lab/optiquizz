@@ -1,0 +1,25 @@
+{
+  "title": "ETSO – Étude des Systèmes Optiques",
+  "questions": [
+    {"prompt": "1. Si un objet est à l'infini devant une lentille convergente, où se forme l'image ?", "options": ["au foyer image F'", "au foyer objet F", "au centre optique O", "à l'infini"], "correctAnswerIndex": 0, "explanation": "Les rayons incidents parallèles à l'axe convergent au foyer image F' après la lentille."},
+    {"prompt": "2. Si un objet est placé à l'infini devant une lentille divergente, où se forme l'image ?", "options": ["au foyer image F' (image virtuelle)", "au foyer objet F", "sur la rétine", "au centre optique O"], "correctAnswerIndex": 0},
+    {"prompt": "3. Un objet réel est placé au-delà de 2F devant une lentille convergente. L'image est :", "options": ["réelle, renversée, réduite", "réelle, renversée, agrandie", "virtuelle, droite, agrandie", "virtuelle, droite, réduite"], "correctAnswerIndex": 0},
+    {"prompt": "4. Un objet est placé en 2F devant une lentille convergente. L'image est :", "options": ["réelle, renversée, de même taille", "réelle, renversée, réduite", "virtuelle, droite, agrandie", "virtuelle, droite, réduite"], "correctAnswerIndex": 0},
+    {"prompt": "5. Un objet est placé entre F et 2F devant une lentille convergente. L'image est :", "options": ["réelle, renversée, agrandie", "réelle, renversée, réduite", "virtuelle, droite, agrandie", "virtuelle, droite, réduite"], "correctAnswerIndex": 0},
+    {"prompt": "6. Un objet est placé entre O et F devant une lentille convergente. L'image est :", "options": ["virtuelle, droite, agrandie", "réelle, renversée, agrandie", "réelle, renversée, réduite", "virtuelle, droite, réduite"], "correctAnswerIndex": 0},
+    {"prompt": "7. Où passe un rayon incident parallèle à l'axe après une lentille convergente ?", "options": ["par le foyer image F'", "par le foyer objet F", "par le centre optique O", "il continue indévié"], "correctAnswerIndex": 0},
+    {"prompt": "8. Où passe un rayon passant par le foyer objet F avant la lentille convergente ?", "options": ["il devient parallèle à l'axe après la lentille", "il passe par F'", "il est renvoyé vers l'objet", "il est absorbé par la lentille"], "correctAnswerIndex": 0},
+    {"prompt": "9. Un rayon passant par le centre optique O est :", "options": ["non dévié", "convergé vers F'", "divergé comme venant de F", "réfléchi sur la lentille"], "correctAnswerIndex": 0},
+    {"prompt": "10. Quelle est la nature de l'image donnée par une lentille divergente pour un objet réel ?", "options": ["virtuelle, droite, réduite", "réelle, renversée, agrandie", "réelle, renversée, réduite", "virtuelle, droite, agrandie"], "correctAnswerIndex": 0},
+    {"prompt": "11. Une image virtuelle peut-elle être recueillie sur un écran ?", "options": ["non", "oui, mais seulement avec une lentille divergente", "oui, si l'objet est à l'infini", "oui, dans tous les cas"], "correctAnswerIndex": 0},
+    {"prompt": "12. Le foyer image d'une lentille convergente est situé :", "options": ["du côté image", "du côté objet", "au centre optique", "à l'infini"], "correctAnswerIndex": 0},
+    {"prompt": "13. Le foyer objet d'une lentille convergente est situé :", "options": ["du côté objet", "du côté image", "au centre optique", "au milieu entre F et F'"], "correctAnswerIndex": 0},
+    {"prompt": "14. Dans quel cas une image est-elle droite ?", "options": ["lorsqu'elle est virtuelle", "lorsqu'elle est réelle", "lorsque l'objet est à l'infini", "lorsque la lentille est divergente"], "correctAnswerIndex": 0},
+    {"prompt": "15. Dans quel cas une image est-elle renversée ?", "options": ["lorsqu'elle est réelle", "lorsqu'elle est virtuelle", "uniquement avec une lentille divergente", "uniquement si l'objet est entre O et F"], "correctAnswerIndex": 0},
+    {"prompt": "16. Une lentille divergente peut-elle donner une image réelle ?", "options": ["non", "oui, si l'objet est à l'infini", "oui, si l'objet est entre O et F", "uniquement en présence d'un miroir"], "correctAnswerIndex": 0},
+    {"prompt": "17. Si l'objet se rapproche du foyer F d'une lentille convergente, l'image devient :", "options": ["de plus en plus éloignée", "de plus en plus proche", "de plus en plus petite", "de plus en plus virtuelle"], "correctAnswerIndex": 0},
+    {"prompt": "18. Si l'objet est exactement au foyer F d'une lentille convergente :", "options": ["l'image est à l'infini", "l'image est sur F'", "il n'y a pas d'image", "l'image est sur O"], "correctAnswerIndex": 0},
+    {"prompt": "19. Une lentille mince est dite convergente si :", "options": ["ses bords sont minces et son centre épais", "ses bords sont épais et son centre mince", "elle ne dévie pas les rayons", "son indice est inférieur à 1"], "correctAnswerIndex": 0},
+    {"prompt": "20. Une lentille mince est dite divergente si :", "options": ["ses bords sont épais et son centre mince", "ses bords sont minces et son centre épais", "elle ne dévie pas les rayons", "elle concentre les rayons en un point"], "correctAnswerIndex": 0}
+  ]
+}

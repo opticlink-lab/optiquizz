@@ -1,0 +1,13 @@
+{
+  "title": "Optique géométrique",
+  "questions": [
+    {"text": "Quelle est la formule de conjugaison des lentilles minces ?", "answers": ["1/f' = 1/OA' - 1/OA (relation de conjugaison)", "f' = OA' + OA", "1/f' = OA × OA'", "f' = OA'/OA"], "correctAnswerIndex": 0, "difficulty": "moyen"},
+    {"text": "Quelle est la formule du grandissement transversal d'une lentille mince ?", "answers": ["γ = A'B'/AB = OA'/OA", "γ = AB/A'B' = OA/OA'", "γ = f'/OA", "γ = OA/f'"], "correctAnswerIndex": 0, "difficulty": "moyen"},
+    {"text": "Quels sont les trois rayons remarquables pour construire l'image d'un objet par une lentille convergente ?", "answers": ["Rayon parallèle à l'axe → passe par F', rayon passant par O → non dévié, rayon passant par F → ressort parallèle", "Rayon perpendiculaire, rayon oblique, rayon horizontal", "Rayon incident, rayon réfléchi, rayon réfracté", "Rayon rouge, rayon vert, rayon bleu"], "correctAnswerIndex": 0, "difficulty": "facile"},
+    {"text": "Qu'est-ce que la distance focale image f' d'une lentille convergente ?", "answers": ["Distance entre le centre optique O et le foyer image F'", "Distance entre l'objet et la lentille", "Distance entre l'image et la lentille", "Épaisseur de la lentille"], "correctAnswerIndex": 0, "difficulty": "facile"},
+    {"text": "Quelle est la relation entre la vergence V et la distance focale f' ?", "answers": ["V = 1/f' (en dioptries si f' en mètres)", "V = f'", "V = f'²", "V = 1/f'²"], "correctAnswerIndex": 0, "difficulty": "facile", "explanation": "La vergence s'exprime en dioptries (δ). Par exemple f' = 0,5 m donne V = 2 δ."},
+    {"text": "Qu'est-ce qu'une image virtuelle ?", "answers": ["Une image que l'on ne peut pas recueillir sur un écran", "Une image renversée", "Une image agrandie", "Une image à l'infini"], "correctAnswerIndex": 0, "difficulty": "facile"},
+    {"text": "Qu'est-ce qu'une image réelle ?", "answers": ["Une image formée par la convergence effective des rayons, recueillie sur un écran", "Une image droite", "Une image réduite", "Une image virtuelle"], "correctAnswerIndex": 0, "difficulty": "facile"},
+    {"text": "Quel est le grandissement d'une loupe (objet entre O et F, lentille convergente) ?", "answers": ["Supérieur à 1 (image agrandie)", "Égal à 1", "Inférieur à 1", "Négatif"], "correctAnswerIndex": 0, "difficulty": "moyen"}
+  ]
+}

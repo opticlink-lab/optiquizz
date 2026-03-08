@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ETSO – Retracer les rayons | Champion Optiquizz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app gradient">
+    <div id="quiz-container" class="quiz-container">
+      <a href="index.html" class="back-link">← Accueil</a>
+      <div id="quiz-header" class="quiz-header">
+        <h1 id="quiz-title" class="quiz-title">ETSO – Étude des Systèmes Optiques</h1>
+        <span id="score-display" class="score">0 pt</span>
+      </div>
+      <div id="question-block" class="question-block">
+        <p id="question-text" class="question-text"></p>
+        <ul id="answers-list" class="answers"></ul>
+        <div id="quiz-explanation" class="quiz-explanation" style="display:none"></div>
+        <button type="button" id="next-btn" class="next-btn" style="display:none">Question suivante</button>
+      </div>
+    </div>
+  </div>
+  <script src="js/quiz.js"></script>
+  <script>runQuiz('data/etso.json');</script>
+</body>
+</html>
